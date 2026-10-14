@@ -1,0 +1,6 @@
+[
+{"name":"Bretton Woods","state":"NH","lat":44.2582,"lng":-71.4413,"pass":"WMSP","access":"unlimited","note":"White Mountain Super Pass：四家无限次，无限制日（$825 起，10/31 后涨价）；另有 Bold & Beautiful（Bretton Woods + Cannon，平日）和 Sun N' Snow（Bretton Woods + Cranmore，周日至周五），均有限制日","base_excluded":false},
+{"name":"Cannon Mountain","state":"NH","lat":44.1729,"lng":-71.6833,"pass":"WMSP","access":"unlimited","note":"White Mountain Super Pass：四家无限次，无限制日（$825 起，10/31 后涨价）；另有 Bold & Beautiful（Bretton Woods + Cannon，平日，限制日 12/25-1/1、1/18、2/15-19）","base_excluded":false},
+{"name":"Cranmore Mountain Resort","state":"NH","lat":44.0561,"lng":-71.1131,"pass":"WMSP","access":"unlimited","note":"White Mountain Super Pass：四家无限次，无限制日（$825 起，10/31 后涨价）；另有 Sun N' Snow（Bretton Woods + Cranmore，$799，周日至周五，有限制日）","base_excluded":false},
+{"name":"Waterville Valley Resort","state":"NH","lat":43.9653,"lng":-71.5270,"pass":"WMSP","access":"unlimited","note":"White Mountain Super Pass：四家无限次，无限制日（$825 起，10/31 后涨价）","base_excluded":false}
+]

@@ -1,0 +1,20 @@
+[
+{"name":"Stowe Mountain Resort","state":"VT","lat":44.5303,"lng":-72.7814,"pass":"Epic","access":"unlimited","note":"Vail 自营；Epic Local 高峰日不可用（11/27-28、12/26-31、1/16、2/13-14），当天半价票","base_excluded":true},
+{"name":"Okemo","state":"VT","lat":43.4017,"lng":-72.7170,"pass":"Epic","access":"unlimited","note":"Vail 自营；Epic / Epic Local 无限次无 blackout","base_excluded":false},
+{"name":"Mount Snow","state":"VT","lat":42.9602,"lng":-72.9204,"pass":"Epic","access":"unlimited","note":"Vail 自营；Epic / Epic Local 无限次无 blackout","base_excluded":false},
+{"name":"Mount Sunapee","state":"NH","lat":43.3317,"lng":-72.0806,"pass":"Epic","access":"unlimited","note":"Vail 自营；Epic / Epic Local 无限次","base_excluded":false},
+{"name":"Attitash","state":"NH","lat":44.0829,"lng":-71.2297,"pass":"Epic","access":"unlimited","note":"Vail 自营；Epic / Epic Local 无限次","base_excluded":false},
+{"name":"Wildcat Mountain","state":"NH","lat":44.2640,"lng":-71.2391,"pass":"Epic","access":"unlimited","note":"Vail 自营；Epic / Epic Local 无限次","base_excluded":false},
+{"name":"Crotched Mountain","state":"NH","lat":42.9984,"lng":-71.8742,"pass":"Epic","access":"unlimited","note":"Vail 自营；有夜滑","base_excluded":false},
+{"name":"Hunter Mountain","state":"NY","lat":42.2029,"lng":-74.2251,"pass":"Epic","access":"unlimited","note":"Vail 自营；Epic / Epic Local 无限次","base_excluded":false},
+{"name":"Seven Springs","state":"PA","lat":40.0228,"lng":-79.2973,"pass":"Epic","access":"unlimited","note":"Vail 自营","base_excluded":false},
+{"name":"Hidden Valley","state":"PA","lat":40.0517,"lng":-79.2591,"pass":"Epic","access":"unlimited","note":"Vail 自营","base_excluded":false},
+{"name":"Laurel Mountain","state":"PA","lat":40.1580,"lng":-79.1643,"pass":"Epic","access":"unlimited","note":"Vail 自营；规模小、开放有限","base_excluded":false},
+{"name":"Liberty Mountain","state":"PA","lat":39.7637,"lng":-77.3753,"pass":"Epic","access":"unlimited","note":"Vail 自营","base_excluded":false},
+{"name":"Roundtop Mountain Resort","state":"PA","lat":40.1104,"lng":-76.9277,"pass":"Epic","access":"unlimited","note":"Vail 自营","base_excluded":false},
+{"name":"Whitetail","state":"PA","lat":39.7414,"lng":-77.9332,"pass":"Epic","access":"unlimited","note":"Vail 自营","base_excluded":false},
+{"name":"Jack Frost","state":"PA","lat":41.1083,"lng":-75.6553,"pass":"Epic","access":"unlimited","note":"Vail 自营","base_excluded":false},
+{"name":"Big Boulder","state":"PA","lat":41.0441,"lng":-75.6064,"pass":"Epic","access":"unlimited","note":"Vail 自营","base_excluded":false},
+{"name":"Mont-Sainte-Anne","state":"QC","lat":47.0750,"lng":-70.9071,"pass":"Epic","access":"limited","note":"合作雪场（RCR）；完整 Epic 与 Stoneham 等 RCR 雪场合计 7 天","base_excluded":true},
+{"name":"Stoneham","state":"QC","lat":47.0275,"lng":-71.3744,"pass":"Epic","access":"limited","note":"合作雪场（RCR）；完整 Epic 与 Mont-Sainte-Anne 等合计 7 天","base_excluded":true}
+]

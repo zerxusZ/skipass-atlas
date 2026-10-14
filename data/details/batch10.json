@@ -1,0 +1,67 @@
+[
+  {
+    "id": "cataloochee|NC",
+    "name": "Cataloochee Ski Area",
+    "blackout": "Indy：Indy 官网度假村页面标注“No Blackout Dates”（Indy+ 全季无黑名单）；Indy Base：度假村页面同样标注无黑名单，但 Indy 官方称 26/27 黑名单仍在汇总、开季前可能变动。需预约：否（不在 Indy 预约名单中）",
+    "hours": "早季（开业-12/10）与晚季（3/7-闭园）9:00-16:30；高峰季（12/11-3/6）9:00-22:00；周末及节假日（感恩节、12/14-1/1、MLK 周末、总统日周末）8:30 开门；平安夜 8:30-16:30，圣诞节 13:00-22:00（2025-26 时刻表）",
+    "days_open": "每天",
+    "night": {"has": true, "detail": "高峰季（约 12 月中旬至 3 月初）每天营业至 22:00；早季/晚季 16:30 关门（2025-26）"},
+    "crowd": {
+      "peak": "高 — 东南部少数高海拔雪场之一，离 Asheville/Atlanta 方向客源近，圣诞-新年周、MLK、总统日及周六人满且停车紧张",
+      "offpeak": "低 — 非假期工作日以本地学校团和夜场为主，排队通常很短",
+      "tip": "尽量选非假期工作日；高峰季可利用夜场避开白天人潮，周末 8:30 开门即上山"
+    },
+    "size": {"vertical_ft": 740, "acres": 50, "trails": 18, "lifts": 5, "summit_ft": 5400, "label": "小"},
+    "confidence": "medium",
+    "sources": [
+      "https://cataloochee.com/the-mountain/hours-of-operation",
+      "https://cataloochee.com/the-mountain/cataloochee-ski-area-statistics-and-facts",
+      "https://www.indyskipass.com/our-resorts/cataloochee-ski-area",
+      "https://indyskipass.com/blackout-dates-reservations"
+    ]
+  },
+  {
+    "id": "hatleypointe|NC",
+    "name": "Hatley Pointe",
+    "blackout": "Indy：Indy 官网度假村页面标注“No Blackout Dates”；Indy Base：页面同样标注无黑名单，但 26/27 官方黑名单尚在汇总、可能变动（参考：雪场自家 Select/After Hours 季卡 2025-26 黑名单为 12/19-1/4、1/16-19、2/13-16）。需预约：Indy 无强制预约，但雪场门票仅线上销售并设每日容量上限，建议提前确认",
+    "hours": "早季（12/5-12/12）每天 9:00-16:00；高峰季（12/13-3/8）每天 9:00-21:00（16:00-17:30 压雪休息）；晚季（3/9-闭园）9:00-16:00；平安夜 9:00-14:00，圣诞节 13:00-21:00（2025-26 时刻表）",
+    "days_open": "每天",
+    "night": {"has": true, "detail": "高峰季每天 17:30-21:00（After-Hours 时段），仅限照明雪道"},
+    "crowd": {
+      "peak": "中 — 节假日和周六游客多，但线上限量售票控制了上山人数，售罄后现场不卖票",
+      "offpeak": "低 — 非假期工作日人少，雪场规模小但排队很短",
+      "tip": "节假日务必提前线上锁定名额；注意 16:00-17:30 压雪暂停"
+    },
+    "size": {"vertical_ft": 700, "acres": 54, "trails": 21, "lifts": 4, "summit_ft": 4700, "label": "小"},
+    "confidence": "medium",
+    "sources": [
+      "https://www.hatleypointe.com/hours",
+      "https://www.hatleypointe.com/faqs",
+      "https://hatleypointe.com/the-mountain",
+      "https://www.indyskipass.com/our-resorts/hatley-pointe",
+      "https://indyskipass.com/blackout-dates-reservations"
+    ]
+  },
+  {
+    "id": "ober|TN",
+    "name": "Ober Mountain（2026 年起恢复原名 Ober Gatlinburg）",
+    "blackout": "Indy：Indy+ 无黑名单；Indy Base：Indy 度假村页面显示该雪场有黑名单（“View Full List”），但具体 2026-27 日期未公布（参考：雪场自家季卡 buddy pass 2025-26 黑名单为 12/19-1/4、1/16-18、2/13-15）。需预约：否（不在 Indy 预约名单中）",
+    "hours": "官网未公布具体时刻；以往常规时刻为周一至周四 12:00-22:00，周五/周六及节假日 9:00-22:00，周日 9:00-19:00（年份不明，第三方资料）；2025-26 官网称夜场仅周一至周四提供，夜票覆盖每日最后 4 小时",
+    "days_open": "每天（雪季约感恩节至 3 月中，视天气）",
+    "night": {"has": true, "detail": "2025-26 夜场仅周一至周四，约 17:00/18:00 起至 21:00-22:00（具体时间未公布）"},
+    "crowd": {
+      "peak": "高 — 地处 Gatlinburg/大烟山旅游区，假期大量游客乘缆车上山，初学者多、雪道少，圣诞-新年周和周六非常拥挤",
+      "offpeak": "中 — 工作日人流明显下降，但游客和团体仍不少，雪道仅约 10 条容易显得拥挤",
+      "tip": "避开圣诞-新年周和周六；工作日夜场（周一至周四）人较少；上山可开车走 Ski Mountain Rd 而非排缆车"
+    },
+    "size": {"vertical_ft": 500, "acres": 38, "trails": 10, "lifts": 3, "summit_ft": 3200, "label": "小"},
+    "confidence": "low",
+    "sources": [
+      "https://www.obergatlinburg.com/activities/ski-snowboard",
+      "https://www.indyskipass.com/our-resorts/ober-mountain",
+      "https://indyskipass.com/blackout-dates-reservations",
+      "https://stonybrooklodging.icnd.net/blog/everything-you-need-to-know-about-skiing-at-ober-gatlinburg-FFEB36CB-C987-450D-A27B19A8CD7812C9",
+      "https://en.wikipedia.org/wiki/Ober_Gatlinburg"
+    ]
+  }
+]

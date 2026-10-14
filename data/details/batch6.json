@@ -1,0 +1,335 @@
+[
+ {
+  "id": "holimont|NY",
+  "name": "HoliMont",
+  "blackout": "Snow Pass（2026-27）：仅限周一至周五非节假日使用；黑名单 12/25/2026-1/1/2027、1/16-18/2027、2/13-21/2027。周末仅限会员及其嘉宾，公众无法入场。需预约：否（在 Main Chalet 售票处兑换）",
+  "hours": "公众：周一至周五 9:30-16:30；周末（仅会员）8:00/9:00-16:30；圣诞周、MLK、Presidents' Day 不对公众开放（官网 2026-27 页面）",
+  "days_open": "对公众仅周一至周五（非节假日）；周末为会员专属",
+  "night": {
+   "has": false,
+   "detail": "无夜场"
+  },
+  "crowd": {
+   "peak": "低 — 公众只能在平日非节假日入场，节假日与周末对外关闭，私人俱乐部人少",
+   "offpeak": "低 — 平日只有少量公众与会员，8 条缆车运力充足，几乎不用排队",
+   "tip": "只能工作日去；可与隔壁 Holiday Valley 搭配安排行程"
+  },
+  "size": {
+   "vertical_ft": 700,
+   "acres": 135,
+   "trails": 55,
+   "lifts": 8,
+   "summit_ft": 2260,
+   "label": "小"
+  },
+  "confidence": "high",
+  "sources": [
+   "https://mysnowpass.com/holimont/",
+   "https://holimont.com/?p=2580",
+   "https://www.onthesnow.com/new-york/holimont-ski-area/ski-resort"
+  ]
+ },
+ {
+  "id": "holiday|NY",
+  "name": "Holiday Mountain",
+  "blackout": "Snow Triple Play（2026-27，非 Snow Pass 正式合作方）：黑名单 12/26-27/2026、1/2/2027、1/16-17/2027、2/13-14/2027。需预约：未注明",
+  "hours": "官方 2026-27 时刻表未公布；第三方资料约 9:00-17:00，夜场至 21:00；2025 年合作酒店称周二至周日营业（低可信度）",
+  "days_open": "通常周二至周日（周一休息，待官方确认）",
+  "night": {
+   "has": true,
+   "detail": "全部雪道有照明，夜场约至 21:00（具体日期未公布）"
+  },
+  "crowd": {
+   "peak": "中 — 距 NYC 约 1.5 小时，Kartrite 度假村客人多，雪道少容易拥挤",
+   "offpeak": "低 — 平日为本地小雪场，人很少",
+   "tip": "节假日周末下午或夜场人较少；适合初学者与亲子"
+  },
+  "size": {
+   "vertical_ft": 400,
+   "acres": 37,
+   "trails": 20,
+   "lifts": 5,
+   "summit_ft": 1550,
+   "label": "小"
+  },
+  "confidence": "low",
+  "sources": [
+   "https://mysnowpass.com/holiday-mountain/",
+   "https://skiholidaymtn.com/hours-of-operation/",
+   "https://www.iloveny.com/listing/holiday-mountain/445/",
+   "https://sullivancatskills.com/catskills-social-feeds/ski-sullivan-catskills-this-season/"
+  ]
+ },
+ {
+  "id": "hunthollow|NY",
+  "name": "Hunt Hollow Ski Club",
+  "blackout": "Indy：无；Indy Base：2026-27 黑名单列表中无此雪场（Indy 称列表仍在完善）。半私人俱乐部，周末仅限会员，公众/Indy 仅平日可用。需预约：未注明（建议提前联系）",
+  "hours": "约 8:30-16:00（第三方资料，官网未公布具体时刻）；公众开放日为平日（iLoveNY 称周三至周五）",
+  "days_open": "对公众仅平日（约周三至周五）；周末会员专属",
+  "night": {
+   "has": true,
+   "detail": "有夜场（Indy/iLoveNY 标注），具体日期与时间未公布"
+  },
+  "crowd": {
+   "peak": "低 — 节假日与周末不对公众开放",
+   "offpeak": "低 — 平日只有少量会员与访客，位于 Rochester 南部远离大都市",
+   "tip": "出发前打电话确认公众开放日；2026-27 预计 12/5 开业"
+  },
+  "size": {
+   "vertical_ft": 875,
+   "acres": 100,
+   "trails": 21,
+   "lifts": 4,
+   "summit_ft": 2030,
+   "label": "中"
+  },
+  "confidence": "low",
+  "sources": [
+   "https://indyskipass.com/our-resorts/hunt-hollow-ski-club",
+   "https://indyskipass.com/blackout-dates-reservations",
+   "https://www.iloveny.com/listing/hunt-hollow-ski-club/10422/",
+   "https://www.hunthollow.com/"
+  ]
+ },
+ {
+  "id": "hunter|NY",
+  "name": "Hunter Mountain",
+  "blackout": "Epic：无；Epic Local：无（Hunter 不在 Epic Local 受限雪场名单内）；Northeast Value：11/27-28/2026、12/26-31/2026、1/16-17/2027、2/13-14/2027；Northeast Midweek：所有周末及 11/27、12/25、12/28-31。需预约：否",
+  "hours": "周一至周五 9:00-16:00；周末/节假日 8:30-16:00（部分缆车 15:30 停）（2025-26 时刻表）",
+  "days_open": "每天",
+  "night": {
+   "has": false,
+   "detail": "无夜场"
+  },
+  "crowd": {
+   "peak": "高 — 距 NYC 约 2.5 小时，是离纽约最近的 Epic 大雪场，周六与节假日缆车排队严重",
+   "offpeak": "中 — 平日人少很多，但仍有大量 Epic 持卡人与团体",
+   "tip": "周六 8:30 开门前到；避开 MLK/Presidents 周末和 2 月学校假期，优先平日"
+  },
+  "size": {
+   "vertical_ft": 1600,
+   "acres": 320,
+   "trails": 67,
+   "lifts": 13,
+   "summit_ft": 3200,
+   "label": "中"
+  },
+  "confidence": "high",
+  "sources": [
+   "https://www.epicpass.com/info/peak-restricted-dates.aspx",
+   "https://www.huntermtn.com/the-mountain/about-the-mountain/mountain-info.aspx",
+   "https://www.huntermtn.com/explore-the-resort/about-the-resort/hours-of-operation.aspx"
+  ]
+ },
+ {
+  "id": "kissingbridge|NY",
+  "name": "Kissing Bridge",
+  "blackout": "Snow Triple Play（2026-27，非 Snow Pass 正式合作方）：无黑名单，任何时间有效。需预约：否",
+  "hours": "周一至周四 10:00-21:00；周五 10:00-22:00；周六 8:00-22:00；周日 8:00-20:00（2025-26 时刻表）",
+  "days_open": "每天",
+  "night": {
+   "has": true,
+   "detail": "每晚夜场：周一至周四至 21:00，周五/周六至 22:00，周日至 20:00"
+  },
+  "crowd": {
+   "peak": "中 — Buffalo 本地最近的雪场，周末和夜场有大量学生与学校团体",
+   "offpeak": "低 — 平日白天人很少",
+   "tip": "周末上午早到或平日夜场；2026-27 预计 12/26 左右开业"
+  },
+  "size": {
+   "vertical_ft": 550,
+   "acres": null,
+   "trails": 39,
+   "lifts": 9,
+   "summit_ft": 1700,
+   "label": "中"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://mysnowpass.com/kissing-bridge/",
+   "https://www.onthesnow.com/new-york/kissing-bridge/ski-resort.html",
+   "https://www.wivb.com/news/local-news/kissing-bridge-had-snowiest-season-in-a-decade-in-2025-26/amp/"
+  ]
+ },
+ {
+  "id": "mapleridge|NY",
+  "name": "Maple Ski Ridge",
+  "blackout": "Indy：无；Indy Base：无（Indy 列为 No Blackout Dates）。需预约：否",
+  "hours": "周三至周五 15:00-20:00；周六日 9:00-18:00；圣诞/2 月假期周大多 9:00-18:00；2 月底后仅周五 15:00-20:00 和周末（官网最新时刻表）",
+  "days_open": "周三至周日（周一、周二仅 Nordic 夜间活动）",
+  "night": {
+   "has": true,
+   "detail": "周三至周五至 20:00，周末至 18:00（7 条夜场雪道）"
+  },
+  "crowd": {
+   "peak": "中 — Schenectady/Albany 本地家庭小山，周末与假期有不少儿童课程",
+   "offpeak": "低 — 平日傍晚人很少",
+   "tip": "适合初学者练习；周末上午人最多，下午或傍晚更空"
+  },
+  "size": {
+   "vertical_ft": 270,
+   "acres": 60,
+   "trails": 8,
+   "lifts": 4,
+   "summit_ft": 720,
+   "label": "小"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://www.indyskipass.com/our-resorts/maple-ski-ridge",
+   "https://www.mapleskiridge.com/hours-info",
+   "https://snocountry.com/snow-report/new-york/maple-ski-ridge"
+  ]
+ },
+ {
+  "id": "pisgah|NY",
+  "name": "Mt. Pisgah",
+  "blackout": "Indy：无；Indy Base：无（Indy 列为 No Blackout Dates）。需预约：否",
+  "hours": "周二至周五 15:00-20:00；周六日 10:00-16:00；周一休息；节假日时间可能调整（2025-26 时刻表）",
+  "days_open": "周二至周日（周一休息）",
+  "night": {
+   "has": true,
+   "detail": "周二至周五 15:00-20:00"
+  },
+  "crowd": {
+   "peak": "低 — Saranac Lake 镇营小山，仅 1 条 T-bar",
+   "offpeak": "低 — 平日傍晚主要为本地居民",
+   "tip": "可与 Whiteface/Lake Placid 行程搭配，作为傍晚夜场补充"
+  },
+  "size": {
+   "vertical_ft": 325,
+   "acres": 15,
+   "trails": 7,
+   "lifts": 1,
+   "summit_ft": 2090,
+   "label": "小"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://www.indyskipass.com/our-resorts/mt-pisgah",
+   "https://www.saranaclake.com/alpine-skiing/mt-pisgah-recreation-center",
+   "https://saranaclakeny.gov/mt-pisgah"
+  ]
+ },
+ {
+  "id": "oak|NY",
+  "name": "Oak Mountain",
+  "blackout": "Snow Pass（2026-27）：非节假日任意日期可用；黑名单 12/26/2026、12/31/2026、1/16/2027、2/13/2027。需预约：是（发邮件至 Info@oakmountainski.com 提供购买信息和日期）",
+  "hours": "周四夜场 16:00-19:00；周五至周日 9:00-16:00；节假日周每天 9:00-16:00（近季资料，2026-27 未公布）",
+  "days_open": "周四（夜场）至周日 + 节假日周每天",
+  "night": {
+   "has": true,
+   "detail": "周四 16:00-19:00（约 12 英亩）；节假日周取消"
+  },
+  "crowd": {
+   "peak": "中 — 位于 Adirondacks 南部偏远处，单台四人椅，假期周末排队适中",
+   "offpeak": "低 — 周五/周日人很少",
+   "tip": "需提前邮件预约；避开 MLK 与 Presidents 周末的周六"
+  },
+  "size": {
+   "vertical_ft": 650,
+   "acres": 46,
+   "trails": 22,
+   "lifts": 4,
+   "summit_ft": 2400,
+   "label": "小"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://mysnowpass.com/oak/",
+   "https://www.onthesnow.com/new-york/oak-mountain/ski-resort",
+   "https://iskiny.com/news/oak-mountain-mlk-holiday-weekend",
+   "https://iskiny.com/news/oak-mountain-presidents-day-week-extravaganza"
+  ]
+ },
+ {
+  "id": "peeknpeak|NY",
+  "name": "Peek 'n Peak",
+  "blackout": "Indy：无；Indy Base：2026-27 黑名单列表中无此雪场（Indy 称列表仍在完善）。需预约：否",
+  "hours": "平日 9:30-22:00；周末/节假日 8:30-22:00（周日约至 21:00）；夜场票 16:00 起；早季与晚季会减少营业日（2025-26 时刻表）",
+  "days_open": "旺季基本每天；早季/春季常仅周四/周五至周日",
+  "night": {
+   "has": true,
+   "detail": "16:00 起至 21:00-22:00，27 条雪道有照明"
+  },
+  "crowd": {
+   "peak": "中 — Erie/Buffalo/Cleveland 客群，度假村住客多，周六与假期较挤",
+   "offpeak": "低 — 平日人少",
+   "tip": "周六上午 9 点前到或选择夜场；避开圣诞周"
+  },
+  "size": {
+   "vertical_ft": 400,
+   "acres": 105,
+   "trails": 27,
+   "lifts": 9,
+   "summit_ft": 1800,
+   "label": "小"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://www.indyskipass.com/our-resorts/peek-n-peak",
+   "https://www.pknpk.com/winter-adventures/winter-rates/",
+   "https://www.erienewsnow.com/news/exciting-winter-fun-awaits-at-peekn-peak-resort-2025/article_5ffaf45a-d4ce-4ca1-a315-c4c20fca7cff.html"
+  ]
+ },
+ {
+  "id": "plattekill|NY",
+  "name": "Plattekill Mountain",
+  "blackout": "Snow Triple Play（2026-27，非 Snow Pass 正式合作方）：仅限周五至周日非节假日；黑名单 12/26/2026-1/2/2027、1/16-18/2027、2/13-15/2027。需预约：是（直接联系 Plattekill）",
+  "hours": "8:45-16:15，仅周五、周六、周日及节假日营业（2025-26 时刻表）",
+  "days_open": "周五至周日 + 节假日",
+  "night": {
+   "has": false,
+   "detail": "无夜场"
+  },
+  "crowd": {
+   "peak": "中 — 距 NYC 约 3 小时，家族经营小雪场，周六粉雪日会挤",
+   "offpeak": "低 — 周五人很少",
+   "tip": "选周五去（Snow Triple Play 周五还有门票折扣）；大雪后周六早到"
+  },
+  "size": {
+   "vertical_ft": 1100,
+   "acres": 110,
+   "trails": 38,
+   "lifts": 4,
+   "summit_ft": 3500,
+   "label": "中"
+  },
+  "confidence": "high",
+  "sources": [
+   "https://mysnowpass.com/plattekill/",
+   "https://plattekill.com/?p=228",
+   "https://www.onthesnow.com/new-york/plattekill-mountain/ski-resort"
+  ]
+ },
+ {
+  "id": "skaneateles|NY",
+  "name": "Skaneateles Ski Club",
+  "blackout": "Indy：无；Indy Base：无（Indy 列为 No Blackout Dates）。需预约：否（需查官网开放日）",
+  "hours": "未公布最新时刻；旧资料为周五 18:00-21:00、周六 9:00-17:00、周日 10:00-16:00（2020 年资料），需关注官网/邮件通知",
+  "days_open": "主要周五晚 + 周末（视雪况，非营利俱乐部）",
+  "night": {
+   "has": true,
+   "detail": "周五 18:00-21:00（旧资料）"
+  },
+  "crowd": {
+   "peak": "低 — 志愿者经营的小俱乐部，仅拖牵",
+   "offpeak": "低 — 多数时间人很少",
+   "tip": "出发前务必查官网/Facebook 确认当天是否开放"
+  },
+  "size": {
+   "vertical_ft": 330,
+   "acres": 33,
+   "trails": 7,
+   "lifts": 3,
+   "summit_ft": 1200,
+   "label": "小"
+  },
+  "confidence": "low",
+  "sources": [
+   "https://www.indyskipass.com/our-resorts/skaneateles-ski-club",
+   "https://www.skiskan.com/",
+   "https://www.fingerlakes1.com/2020/02/01/ski-club-in-skaneateles-has-been-going-for-60-years/"
+  ]
+ }
+]

@@ -1,0 +1,1013 @@
+[
+{
+"name": "Berkshire East Mountain Resort",
+"state": "MA",
+"lat": 42.623,
+"lng": -72.873,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; 需预约",
+"base_excluded": false
+},
+{
+"name": "Bousquet Mountain",
+"state": "MA",
+"lat": 42.414,
+"lng": -73.2802,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Catamount Mountain Resort",
+"state": "MA",
+"lat": 42.17,
+"lng": -73.4744,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; 需预约",
+"base_excluded": false
+},
+{
+"name": "Mohawk Mountain",
+"state": "CT",
+"lat": 41.839,
+"lng": -73.315,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Powder Ridge",
+"state": "CT",
+"lat": 41.5023,
+"lng": -72.7385,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; 26/27 新增",
+"base_excluded": false
+},
+{
+"name": "Big Moose",
+"state": "ME",
+"lat": 45.471,
+"lng": -69.695,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Big Rock Mountain",
+"state": "ME",
+"lat": 46.5227,
+"lng": -67.824,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Black Mountain of Maine",
+"state": "ME",
+"lat": 44.5803,
+"lng": -70.623,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; 高山 + 越野",
+"base_excluded": false
+},
+{
+"name": "Camden Snow Bowl",
+"state": "ME",
+"lat": 44.2134,
+"lng": -69.141,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Lost Valley",
+"state": "ME",
+"lat": 44.1397,
+"lng": -70.2842,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Mt. Abram",
+"state": "ME",
+"lat": 44.3815,
+"lng": -70.708,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Saddleback Mountain",
+"state": "ME",
+"lat": 44.9457,
+"lng": -70.527,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; 建议预约",
+"base_excluded": false
+},
+{
+"name": "Bethel Village Trails",
+"state": "ME",
+"lat": 44.4064,
+"lng": -70.7911,
+"pass": "Indy",
+"access": "bonus",
+"note": "越野滑雪（XC）合作点：Indy XC Pass 可用，Base/Indy+ 含有限 XC 天数; 26/27 新增",
+"base_excluded": false,
+"kind": "xc"
+},
+{
+"name": "Carters XC Ski Center",
+"state": "ME",
+"lat": 44.41,
+"lng": -70.774,
+"pass": "Indy",
+"access": "bonus",
+"note": "越野滑雪（XC）合作点：Indy XC Pass 可用，Base/Indy+ 含有限 XC 天数; 26/27 新增",
+"base_excluded": false,
+"kind": "xc"
+},
+{
+"name": "Fort Kent Outdoor Center",
+"state": "ME",
+"lat": 47.2387,
+"lng": -68.5895,
+"pass": "Indy",
+"access": "bonus",
+"note": "越野滑雪（XC）合作点：Indy XC Pass 可用，Base/Indy+ 含有限 XC 天数; 26/27 新增",
+"base_excluded": false,
+"kind": "xc"
+},
+{
+"name": "Northern Maine Community Trails",
+"state": "ME",
+"lat": 46.7299,
+"lng": -67.9297,
+"pass": "Indy",
+"access": "bonus",
+"note": "越野滑雪（XC）合作点：Indy XC Pass 可用，Base/Indy+ 含有限 XC 天数; 26/27 新增",
+"base_excluded": false,
+"kind": "xc"
+},
+{
+"name": "Quarry Road Trails",
+"state": "ME",
+"lat": 44.582,
+"lng": -69.6562,
+"pass": "Indy",
+"access": "bonus",
+"note": "越野滑雪（XC）合作点：Indy XC Pass 可用，Base/Indy+ 含有限 XC 天数",
+"base_excluded": false,
+"kind": "xc"
+},
+{
+"name": "Rangeley Lakes Trail Center",
+"state": "ME",
+"lat": 44.9378,
+"lng": -70.5725,
+"pass": "Indy",
+"access": "bonus",
+"note": "越野滑雪（XC）合作点：Indy XC Pass 可用，Base/Indy+ 含有限 XC 天数",
+"base_excluded": false,
+"kind": "xc"
+},
+{
+"name": "Black Mountain Ski Area",
+"state": "NH",
+"lat": 44.1683,
+"lng": -71.1631,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Cannon Mountain",
+"state": "NH",
+"lat": 44.1729,
+"lng": -71.6833,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; 需预约; Base 节假日及旺季周末全部 blackout",
+"base_excluded": false
+},
+{
+"name": "Dartmouth Skiway",
+"state": "NH",
+"lat": 43.7879,
+"lng": -72.0943,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "King Pine",
+"state": "NH",
+"lat": 43.866,
+"lng": -71.0865,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; 26/27 升级为正式合作; Base blackout：MLK, 总统日周末, 2/16-2/20/27",
+"base_excluded": false
+},
+{
+"name": "McIntyre Ski Area",
+"state": "NH",
+"lat": 43.0056,
+"lng": -71.4402,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; Base blackout：MLK 周末",
+"base_excluded": false
+},
+{
+"name": "Pats Peak",
+"state": "NH",
+"lat": 43.1568,
+"lng": -71.7945,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; 需预约; Base blackout：圣诞/新年, MLK, 总统日",
+"base_excluded": false
+},
+{
+"name": "Ragged Mountain",
+"state": "NH",
+"lat": 43.48,
+"lng": -71.8448,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Tenney Mountain",
+"state": "NH",
+"lat": 43.7451,
+"lng": -71.7687,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Veterans Memorial Recreation Area",
+"state": "NH",
+"lat": 43.4452,
+"lng": -71.6913,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; 26/27 新增",
+"base_excluded": false
+},
+{
+"name": "Waterville Valley Resort",
+"state": "NH",
+"lat": 43.9653,
+"lng": -71.527,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; 高山 + 越野",
+"base_excluded": false
+},
+{
+"name": "Whaleback Mountain",
+"state": "NH",
+"lat": 43.5988,
+"lng": -72.1821,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Eastman Cross Country",
+"state": "NH",
+"lat": 43.5067,
+"lng": -72.118,
+"pass": "Indy",
+"access": "bonus",
+"note": "越野滑雪（XC）合作点：Indy XC Pass 可用，Base/Indy+ 含有限 XC 天数; 26/27 新增",
+"base_excluded": false,
+"kind": "xc"
+},
+{
+"name": "Franconia Village XC Ski Area",
+"state": "NH",
+"lat": 44.1961,
+"lng": -71.753,
+"pass": "Indy",
+"access": "bonus",
+"note": "越野滑雪（XC）合作点：Indy XC Pass 可用，Base/Indy+ 含有限 XC 天数; 26/27 新增",
+"base_excluded": false,
+"kind": "xc"
+},
+{
+"name": "Great Glen Trails Outdoor Center",
+"state": "NH",
+"lat": 44.2882,
+"lng": -71.2225,
+"pass": "Indy",
+"access": "bonus",
+"note": "越野滑雪（XC）合作点：Indy XC Pass 可用，Base/Indy+ 含有限 XC 天数; 26/27 新增",
+"base_excluded": false,
+"kind": "xc"
+},
+{
+"name": "Jackson XC",
+"state": "NH",
+"lat": 44.1466,
+"lng": -71.1845,
+"pass": "Indy",
+"access": "bonus",
+"note": "越野滑雪（XC）合作点：Indy XC Pass 可用，Base/Indy+ 含有限 XC 天数",
+"base_excluded": false,
+"kind": "xc"
+},
+{
+"name": "Bolton Valley Resort",
+"state": "VT",
+"lat": 44.4215,
+"lng": -72.8495,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Burke Mountain",
+"state": "VT",
+"lat": 44.5801,
+"lng": -71.8967,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Jay Peak Resort",
+"state": "VT",
+"lat": 44.937,
+"lng": -72.505,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Magic Mountain",
+"state": "VT",
+"lat": 43.2015,
+"lng": -72.7723,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; 需预约",
+"base_excluded": false
+},
+{
+"name": "Middlebury Snowbowl",
+"state": "VT",
+"lat": 43.9345,
+"lng": -72.9569,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Saskadena Six Ski Area",
+"state": "VT",
+"lat": 43.6627,
+"lng": -72.5474,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Smugglers' Notch Resort",
+"state": "VT",
+"lat": 44.5883,
+"lng": -72.7868,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; 26/27 新增; 需预约，无 blackout",
+"base_excluded": false
+},
+{
+"name": "Catamount Outdoor Family Center",
+"state": "VT",
+"lat": 44.448,
+"lng": -73.0487,
+"pass": "Indy",
+"access": "bonus",
+"note": "越野滑雪（XC）合作点：Indy XC Pass 可用，Base/Indy+ 含有限 XC 天数",
+"base_excluded": false,
+"kind": "xc"
+},
+{
+"name": "Rikert Nordic Center",
+"state": "VT",
+"lat": 43.9549,
+"lng": -72.9913,
+"pass": "Indy",
+"access": "bonus",
+"note": "越野滑雪（XC）合作点：Indy XC Pass 可用，Base/Indy+ 含有限 XC 天数",
+"base_excluded": false,
+"kind": "xc"
+},
+{
+"name": "Sleepy Hollow",
+"state": "VT",
+"lat": 44.3516,
+"lng": -73.0292,
+"pass": "Indy",
+"access": "bonus",
+"note": "越野滑雪（XC）合作点：Indy XC Pass 可用，Base/Indy+ 含有限 XC 天数; 26/27 新增",
+"base_excluded": false,
+"kind": "xc"
+},
+{
+"name": "Trapp Family Lodge",
+"state": "VT",
+"lat": 44.4654,
+"lng": -72.7451,
+"pass": "Indy",
+"access": "bonus",
+"note": "越野滑雪（XC）合作点：Indy XC Pass 可用，Base/Indy+ 含有限 XC 天数",
+"base_excluded": false,
+"kind": "xc"
+},
+{
+"name": "Woodstock Nordic Center",
+"state": "VT",
+"lat": 43.633,
+"lng": -72.5333,
+"pass": "Indy",
+"access": "bonus",
+"note": "越野滑雪（XC）合作点：Indy XC Pass 可用，Base/Indy+ 含有限 XC 天数",
+"base_excluded": false,
+"kind": "xc"
+},
+{
+"name": "Buffalo Ski Club",
+"state": "NY",
+"lat": 42.6776,
+"lng": -78.6971,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Cazenovia Ski Club",
+"state": "NY",
+"lat": 42.9776,
+"lng": -75.8528,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Dry Hill Ski Area",
+"state": "NY",
+"lat": 43.931,
+"lng": -75.9016,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Greek Peak Mountain Resort",
+"state": "NY",
+"lat": 42.5026,
+"lng": -76.1474,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; 需预约",
+"base_excluded": false
+},
+{
+"name": "Hunt Hollow Ski Club",
+"state": "NY",
+"lat": 42.6428,
+"lng": -77.4832,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Maple Ski Ridge",
+"state": "NY",
+"lat": 42.8158,
+"lng": -74.034,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Mt. Pisgah",
+"state": "NY",
+"lat": 44.3439,
+"lng": -74.1268,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; 26/27 新增",
+"base_excluded": false
+},
+{
+"name": "Peek 'n Peak",
+"state": "NY",
+"lat": 42.0644,
+"lng": -79.737,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Skaneateles Ski Club",
+"state": "NY",
+"lat": 42.885,
+"lng": -76.397,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Snow Ridge",
+"state": "NY",
+"lat": 43.6395,
+"lng": -75.421,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Swain Resort",
+"state": "NY",
+"lat": 42.4761,
+"lng": -77.8554,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Titus Mountain",
+"state": "NY",
+"lat": 44.7543,
+"lng": -74.2413,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "West Mountain",
+"state": "NY",
+"lat": 43.2893,
+"lng": -73.7384,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Garnet Hill XC",
+"state": "NY",
+"lat": 43.7416,
+"lng": -74.0848,
+"pass": "Indy",
+"access": "bonus",
+"note": "越野滑雪（XC）合作点：Indy XC Pass 可用，Base/Indy+ 含有限 XC 天数",
+"base_excluded": false,
+"kind": "xc"
+},
+{
+"name": "Osceola Tug Hill XC Ski Center",
+"state": "NY",
+"lat": 43.4893,
+"lng": -75.7135,
+"pass": "Indy",
+"access": "bonus",
+"note": "越野滑雪（XC）合作点：Indy XC Pass 可用，Base/Indy+ 含有限 XC 天数; 26/27 新增",
+"base_excluded": false,
+"kind": "xc"
+},
+{
+"name": "Scotts Cobble Nordic Center",
+"state": "NY",
+"lat": 44.2465,
+"lng": -73.945,
+"pass": "Indy",
+"access": "bonus",
+"note": "越野滑雪（XC）合作点：Indy XC Pass 可用，Base/Indy+ 含有限 XC 天数; 26/27 新增",
+"base_excluded": false,
+"kind": "xc"
+},
+{
+"name": "Winter4Kids",
+"state": "NJ",
+"lat": 41.1842,
+"lng": -74.4803,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天; 仅限青少年的雪场（原 Hidden Valley NJ）; Indy 仅开放 12/20/26 & 3/7/27; 需预约; 26/27 新增",
+"base_excluded": false
+},
+{
+"name": "High Point XC Ski Center",
+"state": "NJ",
+"lat": 41.3201,
+"lng": -74.6678,
+"pass": "Indy",
+"access": "bonus",
+"note": "越野滑雪（XC）合作点：Indy XC Pass 可用，Base/Indy+ 含有限 XC 天数",
+"base_excluded": false,
+"kind": "xc"
+},
+{
+"name": "Bear Creek",
+"state": "PA",
+"lat": 40.4811,
+"lng": -75.6281,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Blue Knob All Season Resort",
+"state": "PA",
+"lat": 40.2888,
+"lng": -78.5629,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Montage Mountain",
+"state": "PA",
+"lat": 41.3563,
+"lng": -75.6631,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; Base blackout：圣诞/新年, MLK, 总统日",
+"base_excluded": false
+},
+{
+"name": "Shawnee Mountain Ski Area",
+"state": "PA",
+"lat": 41.0381,
+"lng": -75.0795,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; Base blackout：节假日 + 旺季周六（至 3/1/27）",
+"base_excluded": false
+},
+{
+"name": "Ski Big Bear (Masthope)",
+"state": "PA",
+"lat": 41.5275,
+"lng": -75.0368,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; Base blackout：12/26-1/2, MLK, 总统日, 2/16-2/20/27",
+"base_excluded": false
+},
+{
+"name": "Ski Sawmill",
+"state": "PA",
+"lat": 41.5233,
+"lng": -77.2906,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Spring Mountain Adventures",
+"state": "PA",
+"lat": 40.2658,
+"lng": -75.4567,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; 26/27 新增",
+"base_excluded": false
+},
+{
+"name": "Tussey Mountain",
+"state": "PA",
+"lat": 40.7685,
+"lng": -77.7506,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; Base blackout：MLK 周末",
+"base_excluded": false
+},
+{
+"name": "Wisp",
+"state": "MD",
+"lat": 39.5505,
+"lng": -79.3669,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Bryce Resort",
+"state": "VA",
+"lat": 38.8137,
+"lng": -78.7662,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Massanutten Resort",
+"state": "VA",
+"lat": 38.3988,
+"lng": -78.7597,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; Base blackout：MLK, 总统日",
+"base_excluded": false
+},
+{
+"name": "Wintergreen",
+"state": "VA",
+"lat": 37.9176,
+"lng": -78.9395,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Canaan Valley",
+"state": "WV",
+"lat": 39.0089,
+"lng": -79.4636,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Winterplace Ski Resort",
+"state": "WV",
+"lat": 37.5976,
+"lng": -81.1212,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "White Grass Ski Touring",
+"state": "WV",
+"lat": 39.019,
+"lng": -79.4217,
+"pass": "Indy",
+"access": "bonus",
+"note": "越野滑雪（XC）合作点：Indy XC Pass 可用，Base/Indy+ 含有限 XC 天数",
+"base_excluded": false,
+"kind": "xc"
+},
+{
+"name": "Cataloochee Ski Area",
+"state": "NC",
+"lat": 35.5598,
+"lng": -83.0904,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Hatley Pointe",
+"state": "NC",
+"lat": 35.9547,
+"lng": -82.5089,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Ober Mountain",
+"state": "TN",
+"lat": 35.7014,
+"lng": -83.5615,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Camp Fortune",
+"state": "QC",
+"lat": 45.5108,
+"lng": -75.8435,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Centre Vorlage",
+"state": "QC",
+"lat": 45.6456,
+"lng": -75.9382,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Destination Owl's Head",
+"state": "QC",
+"lat": 45.0587,
+"lng": -72.311,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; Base blackout：圣诞/新年",
+"base_excluded": false
+},
+{
+"name": "Massif du Sud",
+"state": "QC",
+"lat": 46.6215,
+"lng": -70.4897,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Mont-Edouard",
+"state": "QC",
+"lat": 48.2025,
+"lng": -70.2683,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Mont Rigaud",
+"state": "QC",
+"lat": 45.4635,
+"lng": -74.3352,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Mont Sutton",
+"state": "QC",
+"lat": 45.1046,
+"lng": -72.5613,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; Base 部分 blackout (12/27-28, 2 月多数周末, 3/1-3/7/27)",
+"base_excluded": false
+},
+{
+"name": "Mont-Kanasuta",
+"state": "QC",
+"lat": 48.1866,
+"lng": -79.399,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; 26/27 新增",
+"base_excluded": false
+},
+{
+"name": "Ski Saint-Bruno",
+"state": "QC",
+"lat": 45.5554,
+"lng": -73.3315,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）; 26/27 新增",
+"base_excluded": false
+},
+{
+"name": "Ski Vallee Bleue",
+"state": "QC",
+"lat": 46.0305,
+"lng": -74.206,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Val d'Irene",
+"state": "QC",
+"lat": 48.4811,
+"lng": -67.5636,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Calabogie Peaks Resort",
+"state": "ON",
+"lat": 45.269,
+"lng": -76.7869,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Hockley Valley Resort",
+"state": "ON",
+"lat": 43.9777,
+"lng": -80.0471,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Loch Lomond",
+"state": "ON",
+"lat": 48.2938,
+"lng": -89.3469,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Mount Baldy Ski Area",
+"state": "ON",
+"lat": 48.526,
+"lng": -89.128,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Hardwood Ski and Bike",
+"state": "ON",
+"lat": 44.5234,
+"lng": -79.6063,
+"pass": "Indy",
+"access": "bonus",
+"note": "越野滑雪（XC）合作点：Indy XC Pass 可用，Base/Indy+ 含有限 XC 天数; 需预约",
+"base_excluded": false,
+"kind": "xc"
+},
+{
+"name": "Marble Mountain",
+"state": "NL",
+"lat": 48.9489,
+"lng": -57.8298,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+},
+{
+"name": "Smokey Mountain Ski Club",
+"state": "NL",
+"lat": 52.9785,
+"lng": -66.9213,
+"pass": "Indy",
+"access": "limited",
+"note": "2 天（第 3 天 75 折）",
+"base_excluded": false
+}
+]

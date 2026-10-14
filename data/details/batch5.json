@@ -1,0 +1,343 @@
+[
+ {
+  "id": "jiminypeak|MA",
+  "name": "Jiminy Peak",
+  "blackout": "Ikon（Bonus Mountain，2 天）：12/26-12/30/2026、1/16-1/17/2027、2/13-2/14/2027 不可用；Ikon Base/Session：不含本场。Snow：本场仅在 Snow Triple Play（3 天通用票）名单，不在 Snow Pass 名单；Triple Play blackout 未公布。需预约：否（Ikon 窗口取票）",
+  "hours": "周一至周五 9:00-22:00；周末/节假日 8:30-22:00（含夜场；平安夜 8:30-16:00，圣诞 9:30-22:00）（官网 2025-26 时刻表）",
+  "days_open": "每天",
+  "night": {
+   "has": true,
+   "detail": "每晚开放至 22:00（末班 21:30），25 条雪道、3 个地形公园有灯光"
+  },
+  "crowd": {
+   "peak": "高 — 南新英格兰最大雪场之一，距 NYC 约 3 小时、Boston 约 2.5 小时、Albany 1 小时，周六与假期周人多",
+   "offpeak": "低 — 平日白天及夜场人少，六人高速吊椅运力足",
+   "tip": "周六 9 点前到；Ikon 两天用在平日，避开 12/26-30、MLK、Presidents 周末及 2 月学校假期"
+  },
+  "size": {
+   "vertical_ft": 1150,
+   "acres": 167,
+   "trails": 45,
+   "lifts": 9,
+   "summit_ft": 2380,
+   "label": "中"
+  },
+  "confidence": "high",
+  "sources": [
+   "https://www.jiminypeak.com/the-mountain/mountain-information/",
+   "https://www.jiminypeak.com/the-mountain/activities-things-to-do/night-skiing/",
+   "https://www.ikonpass.com/en/bonus-mountain-program",
+   "https://peterglenn.com/ikon-pass-2026-27/",
+   "https://snowbrains.com/snow-pass-partner-resorts-2026-27/"
+  ]
+ },
+ {
+  "id": "butternut|MA",
+  "name": "Ski Butternut",
+  "blackout": "Ikon（Bonus Mountain，2 天）：12/26-12/30/2026、1/16-1/17/2027、2/13-2/14/2027 不可用；Ikon Base/Session：不含本场。Snow Pass（2026-27 新产品，每个合作雪场 2 天 + 加购 7 折）：官方未公布本场 blackout（媒体称部分雪场有 blackout）。需预约：Ikon 否（窗口取票）；Snow Pass 未说明",
+  "hours": "周一至周五 9:00-16:00；周末/节假日 8:15-16:00（第三方资料，官网未列缆车时间；圣诞节 10:30-16:00）",
+  "days_open": "每天（雪季）",
+  "night": {
+   "has": false,
+   "detail": "无夜场"
+  },
+  "crowd": {
+   "peak": "中 — 距 NYC 约 2.5 小时，假期和周六家庭客多，但 5 条四人吊椅分流尚可",
+   "offpeak": "低 — 平日人很少",
+   "tip": "周六 10 点前到；避开 12/24-1/3、MLK 与 Presidents 周（2/13-21）"
+  },
+  "size": {
+   "vertical_ft": 1000,
+   "acres": 100,
+   "trails": 22,
+   "lifts": 5,
+   "summit_ft": 1800,
+   "label": "中"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://www.skibutternut.com/the-mountain/mountain-info/mountain-stats",
+   "https://www.skibutternut.com/tickets-passes/lift-tickets",
+   "https://www.ikonpass.com/en/bonus-mountain-program",
+   "https://snowbrains.com/snow-pass-partner-resorts-2026-27/"
+  ]
+ },
+ {
+  "id": "mohawk|CT",
+  "name": "Mohawk Mountain",
+  "blackout": "Indy+：无；Indy Base：2026-27 未公布（Indy 官方 26-27 名单尚未列入本场；2025-26 为 MLK 周末 1/17-19、Presidents 周末 2/14-16）。需预约：否（到场在客服台兑换，无每日名额上限）",
+  "hours": "周一 12:00-20:00；周二至周四 10:00-20:00；周五 10:00-21:30；周六 8:30-21:30；周日 8:30-16:00（官网雪季时刻表，2025-26）",
+  "days_open": "每天",
+  "night": {
+   "has": true,
+   "detail": "周一至周四 16:00-20:00；周五、周六 16:00-21:30（周日无夜场），16 条雪道"
+  },
+  "crowd": {
+   "peak": "高 — 距 NYC 约 2 小时，康州最大雪场，假期与周六排队明显",
+   "offpeak": "低 — 平日白天和夜场人少",
+   "tip": "周六 9 点前到或下午 4 点后夜场；避开 12/22-1/2 圣诞假期（12/25 闭园）"
+  },
+  "size": {
+   "vertical_ft": 650,
+   "acres": 112,
+   "trails": 27,
+   "lifts": 8,
+   "summit_ft": 1600,
+   "label": "小"
+  },
+  "confidence": "high",
+  "sources": [
+   "https://www.mohawkmtn.com/hours-of-operation/",
+   "https://www.mohawkmtn.com/night-skiing/",
+   "https://www.mohawkmtn.com/mountains-stats/",
+   "https://www.mohawkmtn.com/indy-pass/",
+   "https://www.indyskipass.com/blackout-dates-reservations"
+  ]
+ },
+ {
+  "id": "mountsouthington|CT",
+  "name": "Mount Southington",
+  "blackout": "Snow Pass（2026-27 新产品，每个合作雪场 2 天 + 加购 7 折）：官方未公布本场 blackout（媒体称部分雪场有 blackout）；本场也在 Snow Triple Play 名单（blackout 同样未公布）。需预约：未说明",
+  "hours": "平日约 10:00-21:00；周末约 9:00-22:00（第三方资料）；节假日（12/23-1/2、MLK、Presidents 周末）8:30-22:00（官网，2025-26）",
+  "days_open": "每天",
+  "night": {
+   "has": true,
+   "detail": "周一至周四 17:00-21:00；周五、周六 17:00-22:00；周日 16:00-20:00（假期周日至 22:00），全山灯光"
+  },
+  "crowd": {
+   "peak": "高 — 位于 I-84 旁，Hartford/New Haven 半小时内，周末与假期本地家庭和学生多",
+   "offpeak": "中 — 平日晚上有本地上班族和学校社团",
+   "tip": "周末上午早到或选平日白天；避开假期周"
+  },
+  "size": {
+   "vertical_ft": 425,
+   "acres": 51,
+   "trails": 14,
+   "lifts": 8,
+   "summit_ft": 525,
+   "label": "小"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://mountsouthington.com/hours-of-operation",
+   "https://mountsouthington.com/night-skiing",
+   "https://mountsouthington.com/trails-and-conditions",
+   "https://mountsouthington.com/snow-triple-play",
+   "https://snocountry.com/snow-report/connecticut/mount-southington-ski-area"
+  ]
+ },
+ {
+  "id": "powderridge|CT",
+  "name": "Powder Ridge",
+  "blackout": "Indy+：无；Indy Base：Indy 官网本场页显示无 blackout（26-27）。需预约：否（缆车票按日期售卖，假期可能售罄）",
+  "hours": "平日约 15:00-21:00；周末/节假日约 10:00-22:00（第三方资料；官网未公布冬季缆车时间）",
+  "days_open": "每天（早季周一、周二可能因造雪关闭）",
+  "night": {
+   "has": true,
+   "detail": "每晚开放，约 80% 雪道有灯光，营业至约 21:00-22:00"
+  },
+  "crowd": {
+   "peak": "高 — 距 Hartford/New Haven 25 分钟，假期家庭和雪圈客多",
+   "offpeak": "低 — 平日下午至夜间人少",
+   "tip": "周末提前网上购票；避开圣诞假期周"
+  },
+  "size": {
+   "vertical_ft": 550,
+   "acres": 80,
+   "trails": 22,
+   "lifts": 6,
+   "summit_ft": 720,
+   "label": "小"
+  },
+  "confidence": "low",
+  "sources": [
+   "https://powderridgepark.com/park-info/frequently-asked-questions/",
+   "https://powderridgepark.com/passes/park-passes-winter/",
+   "https://www.indyskipass.com/our-resorts/powder-ridge-0",
+   "https://www.onthesnow.com/connecticut/powder-ridge-park/ski-resort"
+  ]
+ },
+ {
+  "id": "belleayre|NY",
+  "name": "Belleayre Mountain",
+  "blackout": "Snow Pass（2026-27 新产品，每个合作雪场 2 天 + 加购 7 折）：官方未公布本场 blackout（媒体称部分雪场有 blackout）；本场也在 Snow Triple Play 名单（blackout 同样未公布）。需预约：未说明",
+  "hours": "每天 9:00-16:00（官网冬季缆车时间，不分平日/周末）",
+  "days_open": "每天",
+  "night": {
+   "has": false,
+   "detail": "无夜场"
+  },
+  "crowd": {
+   "peak": "中 — 距 NYC 约 2.5 小时，周六/假期人多，但吊椅（含缆车厢）运力足，比 Hunter 人少",
+   "offpeak": "低 — 平日空旷",
+   "tip": "周六 9 点前到；避开 Presidents 周与圣诞周"
+  },
+  "size": {
+   "vertical_ft": 1404,
+   "acres": 171,
+   "trails": 62,
+   "lifts": 8,
+   "summit_ft": 3429,
+   "label": "中"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://www.belleayre.com/the-mountain/trail-map",
+   "https://en.wikipedia.org/wiki/Belleayre_Mountain",
+   "https://snowbrains.com/snow-pass-partner-resorts-2026-27/"
+  ]
+ },
+ {
+  "id": "buffalo|NY",
+  "name": "Buffalo Ski Club（Buffalo Ski Center）",
+  "blackout": "Indy+：无；Indy Base：2026-27 未公布（Indy 官方 26-27 名单尚未列入本场）。需预约：未说明（会员制俱乐部，建议提前致电 716-941-5654）",
+  "hours": "周三至周五约 14:00-21:00；周六约 8:00-20:00；周日约 8:00-17:00（较旧第三方报道；平日仅部分区域开放）",
+  "days_open": "周三至周日（周一、周二关闭）",
+  "night": {
+   "has": true,
+   "detail": "周三至周五晚间（约至 21:00），周六约至 20:00"
+  },
+  "crowd": {
+   "peak": "中 — 会员制俱乐部，距 Buffalo 约 40 分钟，周末会员家庭多",
+   "offpeak": "低 — 平日下午至夜间人少",
+   "tip": "选周三至周五夜场；出发前查看 Trail Conditions 页面"
+  },
+  "size": {
+   "vertical_ft": 464,
+   "acres": 175,
+   "trails": 38,
+   "lifts": 7,
+   "summit_ft": null,
+   "label": "小"
+  },
+  "confidence": "low",
+  "sources": [
+   "https://www.indyskipass.com/our-resorts/buffalo-ski-club",
+   "https://www.buffaloskicenter.com/hours/",
+   "https://snowjournal.com/d/3521-3521"
+  ]
+ },
+ {
+  "id": "cazenovia|NY",
+  "name": "Cazenovia Ski Club",
+  "blackout": "Indy+：无；Indy Base：无（Indy 官网显示 No Blackout Dates）。需预约：否（私人志愿者俱乐部，Indy 持有人按规则到场；可带 1 名付费客人）",
+  "hours": "周六、周日 9:00-16:00（另有雪天/活动日临时开放，2025-26 共开放 33 天）",
+  "days_open": "仅周末（视雪况）",
+  "night": {
+   "has": false,
+   "detail": "无夜场"
+  },
+  "crowd": {
+   "peak": "低 — 小型会员俱乐部，距 Syracuse 约 30 分钟，人流很少",
+   "offpeak": "低 — 平日通常不开放",
+   "tip": "出发前查看官网/Facebook 当周开放时间；自带食物和水（无餐饮、无租赁）"
+  },
+  "size": {
+   "vertical_ft": 500,
+   "acres": 98,
+   "trails": 14,
+   "lifts": 2,
+   "summit_ft": 1460,
+   "label": "小"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://skicaz.com/",
+   "https://skicaz.com/hours-and-location/",
+   "https://skicaz.com/indy-pass/",
+   "https://www.indyskipass.com/our-resorts/cazenovia-ski-club"
+  ]
+ },
+ {
+  "id": "dryhill|NY",
+  "name": "Dry Hill Ski Area",
+  "blackout": "Indy+：无；Indy Base：无（Indy 官网显示 No Blackout Dates）。需预约：未说明",
+  "hours": "白天约 10:00-17:00，平日开放时间有限（第三方资料，官网未公布）",
+  "days_open": "未明确（平日开放时间有限）",
+  "night": {
+   "has": true,
+   "detail": "平日晚间与周六晚间，平日约至 21:00、周末约至 22:00（第三方资料）"
+  },
+  "crowd": {
+   "peak": "低 — 偏远北部（Watertown，近 Fort Drum），以本地客为主",
+   "offpeak": "低 — 平日人很少",
+   "tip": "出发前致电 315-782-8584 确认开放；周五晚上有现场音乐"
+  },
+  "size": {
+   "vertical_ft": 300,
+   "acres": 42,
+   "trails": 13,
+   "lifts": 3,
+   "summit_ft": null,
+   "label": "小"
+  },
+  "confidence": "low",
+  "sources": [
+   "https://www.indyskipass.com/our-resorts/dry-hill-ski-area",
+   "https://www.skidryhill.com/",
+   "https://www.iloveny.com/listing/dry-hill-ski-area/6189/",
+   "https://www.skiresort.info/ski-resort/dry-hill/"
+  ]
+ },
+ {
+  "id": "gore|NY",
+  "name": "Gore Mountain",
+  "blackout": "Snow Pass（2026-27 新产品，每个合作雪场 2 天 + 加购 7 折）：官方未公布本场 blackout（媒体称部分雪场有 blackout）；本场也在 Snow Triple Play 名单（blackout 同样未公布）。需预约：未说明",
+  "hours": "每天 8:30-16:00（官网，不分平日/周末）",
+  "days_open": "每天",
+  "night": {
+   "has": true,
+   "detail": "Ski Bowl 村落雪道 Twilight 夜场，通常周四至周六 15:00-20:00（视雪况调整）"
+  },
+  "crowd": {
+   "peak": "中 — 距 NYC 约 4 小时、Albany 1.5 小时，周六与假期周人多，但面积大、分流好",
+   "offpeak": "低 — 平日非常空",
+   "tip": "周六 9 点前到；避开 Presidents 周与圣诞周，平日最佳"
+  },
+  "size": {
+   "vertical_ft": 2537,
+   "acres": 453,
+   "trails": 108,
+   "lifts": 14,
+   "summit_ft": 3600,
+   "label": "大"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://goremountain.com/the-mountain/about-the-ski-bowl/",
+   "https://www.onthesnow.com/new-york/gore-mountain/ski-resort",
+   "https://snowbrains.com/snow-pass-partner-resorts-2026-27/"
+  ]
+ },
+ {
+  "id": "greekpeak|NY",
+  "name": "Greek Peak Mountain Resort",
+  "blackout": "Indy+：无；Indy Base：无（Indy 官网显示 No Blackout Dates）。需预约：是（建议至少提前 48 小时通过邮件 GPRedemptions@greekpeakmtnresort.com 预约；未预约到场视名额兑换；取消需提前 48 小时，No-show 计为已用）",
+  "hours": "周一至周五约 9:30-16:00；周末 8:30-16:00（2025-26 开幕时刻）；多数日子延长至夜场",
+  "days_open": "每天",
+  "night": {
+   "has": true,
+   "detail": "夜场票 15:30 至关门（约 21:00-22:00，具体以官网为准）；周一有优惠夜场票"
+  },
+  "crowd": {
+   "peak": "中 — 距 Syracuse/Ithaca 约 40 分钟，Cornell 等学生和本地家庭多，周六较挤",
+   "offpeak": "低 — 平日白天人少",
+   "tip": "提前 48 小时预约 Indy；周六上午早到，避开 2 月学校假期"
+  },
+  "size": {
+   "vertical_ft": 952,
+   "acres": 220,
+   "trails": 55,
+   "lifts": 8,
+   "summit_ft": 2100,
+   "label": "中"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://www.greekpeak.net/ski-ride/indy-pass/",
+   "https://www.indyskipass.com/our-resorts/greek-peak-mountain-resort",
+   "https://www.greekpeak.net/greek-peak-mountain-resort-fires-up-the-snow-guns-and-plans-for-opening-day-of-the-2025-26-season/",
+   "https://www.indyskipass.com/blackout-dates-reservations"
+  ]
+ }
+]

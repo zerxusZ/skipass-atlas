@@ -1,0 +1,340 @@
+[
+ {
+  "id": "sawmill|PA",
+  "name": "Ski Sawmill",
+  "blackout": "Indy+（全价）：无；Indy Base：无（2026-27 官方 blackout 表未列该雪场）。需预约：否（不在 Indy 预约名单内，雪场容量政策仍适用）",
+  "hours": "周二、周四、周五 13:00-21:00；周六 9:00-21:00；周日 9:00-17:00；周一、周三不开（2024-25 时刻表，2026-27 待开业前公布；淡日可能仅开 T-Bar）",
+  "days_open": "周二、周四至周日（周一、周三关闭，节假日周一除外）",
+  "night": {
+   "has": true,
+   "detail": "周二、周四、周五、周六至 21:00（2024-25 时刻表）"
+  },
+  "crowd": {
+   "peak": "低 — 位于宾州北部偏远山区（Wellsboro 附近），距纽约/费城均约 4 小时，客源以本地家庭为主",
+   "offpeak": "低 — 平日几乎无人，但部分缆车可能不开",
+   "tip": "出发前打电话确认当天营业及开放缆车；适合顺路过夜的小型家庭滑雪"
+  },
+  "size": {
+   "vertical_ft": 515,
+   "acres": 40,
+   "trails": 13,
+   "lifts": 3,
+   "summit_ft": 2215,
+   "label": "小"
+  },
+  "confidence": "low",
+  "sources": [
+   "https://www.skisawmill.com/rates-hours/",
+   "https://www.skisawmill.com/about-sawmill/",
+   "https://www.indyskipass.com/our-resorts/ski-sawmill",
+   "https://docs.google.com/spreadsheets/d/e/2PACX-1vTUXA5uhe2QwuQvCTpaSpIQmNNWIAp4gADGo5DIUeDwMOfgg9a8nEMU2K_4J9_24E2dGaLgbBnplpqg/pubhtml?gid=1360740952&single=true"
+  ]
+ },
+ {
+  "id": "springadventures|PA",
+  "name": "Spring Mountain Adventures",
+  "blackout": "Indy+（全价）：无；Indy Base：无（2026-27 官方 blackout 表未列该雪场）。需预约：否（不在 Indy 预约名单内，雪场容量政策仍适用）",
+  "hours": "周一、周四、周五 10:00-21:00；周二、周三 16:00-21:00；周六及节假日 9:00-21:00；周日 9:00-20:00（2025-26 时刻表）",
+  "days_open": "每天（周二、周三仅夜场）",
+  "night": {
+   "has": true,
+   "detail": "每晚开放，周一至周六至 21:00，周日至 20:00"
+  },
+  "crowd": {
+   "peak": "高 — 距费城仅约 1 小时，雪道少、面积小，周末和节假日学生团/教学课程密集",
+   "offpeak": "中 — 平日白天较空，但傍晚常有学校俱乐部和课程",
+   "tip": "周末选上午 9 点开门即到，或平日白天去；避开圣诞-元旦假期"
+  },
+  "size": {
+   "vertical_ft": 450,
+   "acres": 45,
+   "trails": 9,
+   "lifts": 6,
+   "summit_ft": 528,
+   "label": "小"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://springmountainadventures.com/rates-hours/hours/",
+   "https://www.indyskipass.com/our-resorts/spring-mountain-adventures",
+   "https://www.onthesnow.com/pennsylvania/spring-mountain-ski-area/skireport.html",
+   "https://docs.google.com/spreadsheets/d/e/2PACX-1vTUXA5uhe2QwuQvCTpaSpIQmNNWIAp4gADGo5DIUeDwMOfgg9a8nEMU2K_4J9_24E2dGaLgbBnplpqg/pubhtml?gid=1360740952&single=true"
+  ]
+ },
+ {
+  "id": "tussey|PA",
+  "name": "Tussey Mountain",
+  "blackout": "Indy+（全价）：无；Indy Base：1/16-1/18/2027（MLK 周末）。需预约：否",
+  "hours": "周一至周五 12:00-21:00；周六、周日 9:00-17:00（官网 Mountain Info 常规季时刻，年份未注明；第三方另列周一至周三 12:00-17:00、周四周五 12:00-20:00）",
+  "days_open": "每天",
+  "night": {
+   "has": true,
+   "detail": "工作日夜场至约 20:00-21:00（周末一般不开夜场），约 30 英亩照明"
+  },
+  "crowd": {
+   "peak": "中 — 紧邻 State College，Penn State 学生和本地家庭为主；雪场很小，周末排队明显",
+   "offpeak": "低 — 平日下午至夜场人少",
+   "tip": "选平日夜场；Penn State 寒假（12 月中-1 月中）学生较少"
+  },
+  "size": {
+   "vertical_ft": 500,
+   "acres": 50,
+   "trails": 16,
+   "lifts": 3,
+   "summit_ft": 1819,
+   "label": "小"
+  },
+  "confidence": "low",
+  "sources": [
+   "https://tusseymountain.com/mountain-stats",
+   "https://tusseymountain.com/mountain-info/",
+   "https://en.wikipedia.org/wiki/Tussey_Mountain_(ski_resort)",
+   "https://docs.google.com/spreadsheets/d/e/2PACX-1vTUXA5uhe2QwuQvCTpaSpIQmNNWIAp4gADGo5DIUeDwMOfgg9a8nEMU2K_4J9_24E2dGaLgbBnplpqg/pubhtml?gid=1360740952&single=true"
+  ]
+ },
+ {
+  "id": "whitetail|PA",
+  "name": "Whitetail",
+  "blackout": "Epic：无；Epic Local：无（Whitetail 不在 2026-27 Epic Local 限制雪场名单内，限制日 11/27-28、12/26-31、1/16、2/13-14 仅适用于 Vail/Stowe 等）。需预约：否",
+  "hours": "周一至周三 9:00-17:00；周四至周日 9:00-21:00；节假日 9:00-21:00（2024-25 官方时刻表；2025-26 雪具租赁时间与之一致，2026-27 未公布）",
+  "days_open": "每天",
+  "night": {
+   "has": true,
+   "detail": "周四至周日及节假日至 21:00，100% 雪道有照明"
+  },
+  "crowd": {
+   "peak": "高 — 距 DC/Baltimore 约 1.5 小时，是离华府最近的 Epic 雪场，周六和节假日停车、缆车排队严重",
+   "offpeak": "低 — 平日（尤其周一至周三）人少，高速四人缆车运力充足",
+   "tip": "周六上午 9 点前到或选周日下午/夜场；避开 MLK 和 Presidents 周末"
+  },
+  "size": {
+   "vertical_ft": 935,
+   "acres": 120,
+   "trails": 23,
+   "lifts": 9,
+   "summit_ft": 1800,
+   "label": "中"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://www.epicpass.com/info/peak-restricted-dates.aspx",
+   "https://www.skiwhitetail.com/the-mountain/about-the-mountain/mountain-info.aspx",
+   "https://www.skiwhitetail.com/explore-the-resort/about-the-resort/hours-of-operation.aspx"
+  ]
+ },
+ {
+  "id": "wisp|MD",
+  "name": "Wisp",
+  "blackout": "Indy+（全价）：无；Indy Base：无（2026-27 官方 blackout 表未列该雪场）。需预约：否（但须提前在线购买缆车票）",
+  "hours": "每天约 9:00-16:00（2025-26 开季公布时间，官网称随天气与时段调整）；2026-27 节假日：12/26-1/3、1/15-18、2/12-15",
+  "days_open": "每天",
+  "night": {
+   "has": true,
+   "detail": "2026-27 预计 2027 年 1 月起：周三、周四 16:30-20:30；周五、周六 17:00-21:00"
+  },
+  "crowd": {
+   "peak": "中 — 距 DC/Baltimore/Pittsburgh 约 3 小时，周末和节假日有度假客但分散在 30+ 条雪道",
+   "offpeak": "低 — 平日白天很空",
+   "tip": "住 Deep Creek Lake 选平日滑；周末夜场人更少"
+  },
+  "size": {
+   "vertical_ft": 700,
+   "acres": 172,
+   "trails": 33,
+   "lifts": 13,
+   "summit_ft": 3115,
+   "label": "小"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://wispresort.com/lift-tickets/",
+   "https://Indyskipass.com/our-resorts/wisp",
+   "https://www.onthesnow.com/maryland/wisp/ski-resort",
+   "https://www.skisoutheast.com/?p=677843",
+   "https://docs.google.com/spreadsheets/d/e/2PACX-1vTUXA5uhe2QwuQvCTpaSpIQmNNWIAp4gADGo5DIUeDwMOfgg9a8nEMU2K_4J9_24E2dGaLgbBnplpqg/pubhtml?gid=1360740952&single=true"
+  ]
+ },
+ {
+  "id": "canaanvalley|WV",
+  "name": "Canaan Valley",
+  "blackout": "Indy+（全价）：无；Indy Base：无（2026-27 官方 blackout 表未列该雪场）。需预约：否（不在 Indy 预约名单内，雪场容量政策仍适用）",
+  "hours": "每天 9:00-16:30（2025-26 节假日与旺季时刻表，平日/周末相同）",
+  "days_open": "每天",
+  "night": {
+   "has": false,
+   "detail": "无夜场"
+  },
+  "crowd": {
+   "peak": "中 — 距 DC 约 3.5-4 小时的州立公园度假村，节假日住客多但规模有限",
+   "offpeak": "低 — 平日人很少",
+   "tip": "可与附近 Timberline 组合；避开圣诞-元旦周"
+  },
+  "size": {
+   "vertical_ft": 850,
+   "acres": 91,
+   "trails": 47,
+   "lifts": 6,
+   "summit_ft": 4280,
+   "label": "中"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://www.indyskipass.com/our-resorts/canaan-valley",
+   "https://www.canaanresort.com/ski-winter-activities/skiing-snowboarding/lift-tickets",
+   "https://docs.google.com/spreadsheets/d/e/2PACX-1vTUXA5uhe2QwuQvCTpaSpIQmNNWIAp4gADGo5DIUeDwMOfgg9a8nEMU2K_4J9_24E2dGaLgbBnplpqg/pubhtml?gid=1360740952&single=true"
+  ]
+ },
+ {
+  "id": "snowshoe|WV",
+  "name": "Snowshoe Mountain",
+  "blackout": "Ikon：无；Ikon Base：12/26-12/30/2026、1/16-1/17/2027、2/13-2/14/2027（官网将 Snowshoe 列入 Base 无限次组，适用该组 blackout）。需预约：否",
+  "hours": "每天约 9:00-16:30（往季惯例，官网时刻页无法抓取，2026-27 待确认）；Silver Creek 区季节较短（2025-26 为 12/19-3/8）",
+  "days_open": "每天",
+  "night": {
+   "has": true,
+   "detail": "Silver Creek 区夜场，往季通常每天开放至 21:00（工作日 12:00-21:00、周末 9:00-21:00），日票/季卡通用"
+  },
+  "crowd": {
+   "peak": "高 — 中大西洋最大的目的地雪场，圣诞-元旦、MLK、Presidents 周住宿爆满，主缆车排队长",
+   "offpeak": "低 — 距 DC 约 5 小时、位置偏远，平日非假期人很少",
+   "tip": "选 1 月下旬至 3 月平日；周末住山顶村赶第一班缆车"
+  },
+  "size": {
+   "vertical_ft": 1500,
+   "acres": 257,
+   "trails": 61,
+   "lifts": 14,
+   "summit_ft": 4848,
+   "label": "中"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://www.ikonpass.com/en/shop-passes/ikon-base-pass",
+   "https://www.ikonpass.com/en/destinations/snowshoe-mountain",
+   "https://www.onthesnow.com/west-virginia/snowshoe-mountain-resort/skireport",
+   "https://www.snowshoemtn.com/mountain-info/hours-of-operation"
+  ]
+ },
+ {
+  "id": "winterplace|WV",
+  "name": "Winterplace Ski Resort",
+  "blackout": "Indy+（全价）：无；Indy Base：无（2026-27 官方 blackout 表未列该雪场）。需预约：否（不在 Indy 预约名单内，雪场容量政策仍适用）",
+  "hours": "每天 9:00-21:00（2025-26 正式开季后常规时刻；开季首周 11:00-19:00，圣诞节 13:00-21:00）",
+  "days_open": "每天",
+  "night": {
+   "has": true,
+   "detail": "每晚至 21:00，约 74 英亩照明"
+  },
+  "crowd": {
+   "peak": "高 — 位于西弗吉尼亚南部，吸引 NC/VA/OH 家庭和学校团，初学者多，周六与节假日拥挤",
+   "offpeak": "低 — 平日白天人少",
+   "tip": "周六上午 10 点前到或平日夜场；避开圣诞-元旦周和 2 月学校假期"
+  },
+  "size": {
+   "vertical_ft": 603,
+   "acres": 90,
+   "trails": 27,
+   "lifts": 10,
+   "summit_ft": 3600,
+   "label": "小"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://www.indyskipass.com/our-resorts/winterplace-ski-resort",
+   "https://www.skisoutheast.com/winterplace-officially-kicks-off-43rd-season-opening-day-for-skiing-snowboarding-set-for-saturday-dec-6/",
+   "https://docs.google.com/spreadsheets/d/e/2PACX-1vTUXA5uhe2QwuQvCTpaSpIQmNNWIAp4gADGo5DIUeDwMOfgg9a8nEMU2K_4J9_24E2dGaLgbBnplpqg/pubhtml?gid=1360740952&single=true"
+  ]
+ },
+ {
+  "id": "bryce|VA",
+  "name": "Bryce Resort",
+  "blackout": "Indy+（全价）：无；Indy Base：无（2026-27 官方 blackout 表未列该雪场）。需预约：否（不在 Indy 预约名单内，雪场容量政策仍适用）",
+  "hours": "周日至周四 9:00-16:30；周五、周六 9:00-20:30；节假日：12/25 11:00-19:00，12/26-30、1/1、1/17、2/14 至 20:30（2026-27 时刻表，开季日期未定）",
+  "days_open": "每天",
+  "night": {
+   "has": true,
+   "detail": "周五、周六及部分节假日至 20:30"
+  },
+  "crowd": {
+   "peak": "中 — 距 DC 约 2 小时，规模很小（8 条雪道），周六和节假日缆车排队明显",
+   "offpeak": "低 — 平日非常安静",
+   "tip": "周六上午 9 点开门即到或选周五夜场；避开 MLK 和 Presidents 周末"
+  },
+  "size": {
+   "vertical_ft": 500,
+   "acres": 32,
+   "trails": 8,
+   "lifts": 4,
+   "summit_ft": 1750,
+   "label": "小"
+  },
+  "confidence": "high",
+  "sources": [
+   "https://bryceresort.com/mountain-info/hours",
+   "https://www.indyskipass.com/our-resorts/bryce-resort",
+   "https://docs.google.com/spreadsheets/d/e/2PACX-1vTUXA5uhe2QwuQvCTpaSpIQmNNWIAp4gADGo5DIUeDwMOfgg9a8nEMU2K_4J9_24E2dGaLgbBnplpqg/pubhtml?gid=1360740952&single=true"
+  ]
+ },
+ {
+  "id": "massanutten|VA",
+  "name": "Massanutten Resort",
+  "blackout": "Indy+（全价）：无；Indy Base：1/16-1/18/2027（MLK 周末）、2/13-2/15/2027（Presidents 周末）。需预约：否（但周末/节假日线上容量可能售罄，窗口现场票有限）",
+  "hours": "周二至周四 9:00-17:00；周一、周五、周六、周日 9:00-21:00；节假日延长（2024-25 官方时刻表，2025-26/2026-27 未单独公布）",
+  "days_open": "每天",
+  "night": {
+   "has": true,
+   "detail": "周五至周一 16:00-21:00（周二至周四无夜场，3/8 后停）"
+  },
+  "crowd": {
+   "peak": "高 — 距 DC 约 2-2.5 小时，分时度假村住客多，周末与节假日常售罄",
+   "offpeak": "低 — 周二至周四白天人少",
+   "tip": "选周二至周四；周末提前在线购票并早到"
+  },
+  "size": {
+   "vertical_ft": 1110,
+   "acres": 83,
+   "trails": 23,
+   "lifts": 7,
+   "summit_ft": 2880,
+   "label": "中"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://massresort.com/play/snow-sports/hours-rates",
+   "https://www.indyskipass.com/our-resorts/massanutten-resort",
+   "https://www.skisoutheast.com/massanutten-resort-opens-ski-slopes-and-snow-tubing-hill-for-2025-26-season",
+   "https://docs.google.com/spreadsheets/d/e/2PACX-1vTUXA5uhe2QwuQvCTpaSpIQmNNWIAp4gADGo5DIUeDwMOfgg9a8nEMU2K_4J9_24E2dGaLgbBnplpqg/pubhtml?gid=1360740952&single=true"
+  ]
+ },
+ {
+  "id": "wintergreen|VA",
+  "name": "Wintergreen",
+  "blackout": "Indy+（全价）：无；Indy Base：无（2026-27 官方 blackout 表未列该雪场）。需预约：否（不在 Indy 预约名单内，雪场容量政策仍适用）",
+  "hours": "周日至周三 9:00-17:00；周四至周六 9:00-21:00；节假日（12/26-1/2、1/15-17、2/12-14）9:00-21:00（2026-27 时刻表）",
+  "days_open": "每天",
+  "night": {
+   "has": true,
+   "detail": "周四至周六及节假日 16:00-21:00"
+  },
+  "crowd": {
+   "peak": "高 — 距 DC 约 3 小时、Richmond/Charlottesville 1-1.5 小时，节假日和周六度假客集中",
+   "offpeak": "低 — 平日人少，两条高速六人缆车运力足",
+   "tip": "周六上午 9 点前到；Highlands 区高级道人更少"
+  },
+  "size": {
+   "vertical_ft": 1003,
+   "acres": 129,
+   "trails": 27,
+   "lifts": 5,
+   "summit_ft": 3515,
+   "label": "中"
+  },
+  "confidence": "high",
+  "sources": [
+   "https://www.wintergreenresort.com/lift-tickets/",
+   "https://www.wintergreenresort.com/safety-stats/",
+   "https://www.indyskipass.com/our-resorts/wintergreen",
+   "https://docs.google.com/spreadsheets/d/e/2PACX-1vTUXA5uhe2QwuQvCTpaSpIQmNNWIAp4gADGo5DIUeDwMOfgg9a8nEMU2K_4J9_24E2dGaLgbBnplpqg/pubhtml?gid=1360740952&single=true"
+  ]
+ }
+]

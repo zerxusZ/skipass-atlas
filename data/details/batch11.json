@@ -1,0 +1,19 @@
+[
+  {
+    "id": "brettonwoods|NH",
+    "name": "Bretton Woods",
+    "blackout": "White Mountain Super Pass：无限制日；Bold & Beautiful（Bretton Woods + Cannon）：仅限周一至周五非节假日（开季至 2026/12/11 及 2027/3/15 至闭季每天可用），限制日 2026/12/25-2027/1/1、2027/1/18、2027/2/15-2/19；Sun N' Snow（Bretton Woods + Cranmore）：周日至周五非节假日可用（周六不可用），限制日 2026/12/25-2027/1/1、2027/1/17、2027/2/14-2/19",
+    "hours": "平日 9:00-16:00（早晚季约 9:00-15:30）；周末/节假日 8:00-16:00（T-Bar 9:00 开）（2025-26 时刻表）",
+    "days_open": "每天",
+    "night": {"has": false, "detail": "官方 FAQ 明确不提供夜滑"},
+    "crowd": {
+      "peak": "中 — 新罕州面积最大的雪场，地形宽、缆车运力足（Skyway 八人缆车 + 多条高速四人椅），周末及圣诞/MLK/总统周假期家庭客多，但很少排长队",
+      "offpeak": "低 — 平日人少，雪道几乎可独享",
+      "tip": "假期周末尽量 8:00 开门即到；Bethlehem Express 与西侧 West Mountain 区域人更少；风大时山顶缆车可能停运，注意查看雪道报告"
+    },
+    "size": {"vertical_ft": 1500, "acres": 464, "trails": 63, "lifts": 10, "summit_ft": 3100},
+    "base_lat": 44.2582,
+    "base_lng": -71.4413,
+    "other_passes": "不在 Ikon、Epic、Indy、Mountain Collective、Snow Pass、Freedom Pass 之列；仅有自家季票及 White Mountain Super Pass、Bold & Beautiful、Sun N' Snow 等合作季票"
+  }
+]

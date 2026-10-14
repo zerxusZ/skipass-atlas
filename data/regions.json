@@ -1,0 +1,13 @@
+{
+  "default": ["us-northeast", "us-midatlantic", "us-southeast"],
+  "regions": {
+    "us-northeast":   {"label": "美国东北",     "states": ["ME", "NH", "VT", "MA", "CT", "RI", "NY"]},
+    "us-midatlantic": {"label": "美国中大西洋", "states": ["NJ", "PA", "DE", "MD", "DC", "WV", "VA"]},
+    "us-southeast":   {"label": "美国东南",     "states": ["NC", "SC", "TN", "KY", "GA", "AL"]},
+    "us-midwest":     {"label": "美国中西部",   "states": ["OH", "MI", "IN", "IL", "WI", "MN", "IA", "MO", "ND", "SD", "NE", "KS"]},
+    "us-rockies":     {"label": "落基山",       "states": ["CO", "UT", "WY", "MT", "ID", "NM", "AZ"]},
+    "us-west":        {"label": "美国西部",     "states": ["CA", "OR", "WA", "NV", "AK"]},
+    "ca-east":        {"label": "加拿大东部",   "states": ["QC", "ON", "NB", "NS", "PE", "NL"]},
+    "ca-west":        {"label": "加拿大西部",   "states": ["BC", "AB", "SK", "MB", "YT", "NT"]}
+  }
+}

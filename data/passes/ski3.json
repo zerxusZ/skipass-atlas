@@ -1,0 +1,43 @@
+[
+{
+"name": "Whiteface Mountain",
+"state": "NY",
+"lat": 44.3586,
+"lng": -73.8592,
+"pass": "SKI3",
+"access": "unlimited",
+"note": "SKI3（ORDA 三山通票）：Full 全季卡无限次，无限制日；Adult Limited 限制日 12/25/2026-1/1/2027、1/16-18、2/13-21；Midweek Limited 另加所有周六周日；Full 卡另享 Mountain Collective 窗口票 5 折",
+"base_excluded": false
+},
+{
+"name": "Gore Mountain",
+"state": "NY",
+"lat": 43.6726,
+"lng": -74.0062,
+"pass": "SKI3",
+"access": "unlimited",
+"note": "SKI3（ORDA 三山通票）：Full 全季卡无限次，无限制日；Adult Limited 限制日 12/25/2026-1/1/2027、1/16-18、2/13-21；Midweek Limited 另加所有周六周日；Full 卡另享 Mountain Collective 窗口票 5 折",
+"base_excluded": false
+},
+{
+"name": "Belleayre Mountain",
+"state": "NY",
+"lat": 42.1393,
+"lng": -74.506,
+"pass": "SKI3",
+"access": "unlimited",
+"note": "SKI3（ORDA 三山通票）：Full 全季卡无限次，无限制日；Adult Limited 限制日 12/25/2026-1/1/2027、1/16-18、2/13-21；Midweek Limited 另加所有周六周日；Full 卡另享 Mountain Collective 窗口票 5 折",
+"base_excluded": false
+},
+{
+"name": "Mt Van Hoevenberg",
+"state": "NY",
+"lat": 44.2203,
+"lng": -73.9226,
+"pass": "SKI3",
+"access": "bonus",
+"kind": "xc",
+"note": "SKI3 高山卡可加购 Nordic 越野滑雪（44+ km 雪道，Lake Placid）",
+"base_excluded": false
+}
+]

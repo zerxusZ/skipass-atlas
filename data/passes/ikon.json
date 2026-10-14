@@ -1,0 +1,17 @@
+[
+{"name":"Killington-Pico","state":"VT","lat":43.6262,"lng":-72.7964,"pass":"Ikon","access":"limited","note":"Ikon 7 天 / Base 5 天（Base 有 blackout）","base_excluded":false},
+{"name":"Stratton","state":"VT","lat":43.1134,"lng":-72.9081,"pass":"Ikon","access":"unlimited","note":"Ikon 无限次；Base 无限次但有 blackout","base_excluded":false},
+{"name":"Sugarbush Resort","state":"VT","lat":44.1357,"lng":-72.9045,"pass":"Ikon","access":"unlimited","note":"Ikon 无限次；Base 无限次但有 blackout","base_excluded":false},
+{"name":"Sugarloaf","state":"ME","lat":45.0314,"lng":-70.3131,"pass":"Ikon","access":"limited","note":"Ikon 7 天 / Base 5 天","base_excluded":false},
+{"name":"Sunday River","state":"ME","lat":44.4734,"lng":-70.8564,"pass":"Ikon","access":"limited","note":"Ikon 7 天 / Base 5 天","base_excluded":false},
+{"name":"Loon Mountain","state":"NH","lat":44.0364,"lng":-71.6214,"pass":"Ikon","access":"limited","note":"Ikon 7 天 / Base 5 天","base_excluded":false},
+{"name":"Camelback Resort","state":"PA","lat":41.0507,"lng":-75.3557,"pass":"Ikon","access":"limited","note":"Ikon 7 天 / Base 5 天","base_excluded":false},
+{"name":"Blue Mountain Resort","state":"PA","lat":40.8217,"lng":-75.5136,"pass":"Ikon","access":"limited","note":"Ikon 7 天 / Base 5 天","base_excluded":false},
+{"name":"Snowshoe Mountain","state":"WV","lat":38.4105,"lng":-79.9939,"pass":"Ikon","access":"unlimited","note":"Ikon 无限次；Base 无限次但有 blackout","base_excluded":false},
+{"name":"Cranmore Mountain Resort","state":"NH","lat":44.0561,"lng":-71.1131,"pass":"Ikon","access":"bonus","note":"Bonus Mountain：完整 Ikon 免费 2 天，窗口取票；blackout 12/26-30、1/16-17、2/13-14","base_excluded":true},
+{"name":"Jiminy Peak","state":"MA","lat":42.5561,"lng":-73.2918,"pass":"Ikon","access":"bonus","note":"Bonus Mountain：完整 Ikon 免费 2 天，窗口取票；同上 blackout","base_excluded":true},
+{"name":"Ski Butternut","state":"MA","lat":42.1830,"lng":-73.3207,"pass":"Ikon","access":"bonus","note":"Bonus Mountain：完整 Ikon 免费 2 天，窗口取票；同上 blackout","base_excluded":true},
+{"name":"Tremblant","state":"QC","lat":46.2096,"lng":-74.5853,"pass":"Ikon","access":"unlimited","note":"Ikon 无限次；Base 无限次但有 blackout","base_excluded":false},
+{"name":"Le Massif de Charlevoix","state":"QC","lat":47.2860,"lng":-70.5700,"pass":"Ikon","access":"limited","note":"Ikon 7 天 / Base 5 天","base_excluded":false},
+{"name":"Blue Mountain","state":"ON","lat":44.5017,"lng":-80.3164,"pass":"Ikon","access":"unlimited","note":"Ikon 无限次；Base 无限次但有 blackout","base_excluded":false}
+]

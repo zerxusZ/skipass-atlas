@@ -1,0 +1,7 @@
+[
+{"name":"Whiteface Mountain","state":"NY","lat":44.3586,"lng":-73.8592,"pass":"MC","access":"limited","note":"2 天免费 + 额外天数 5 折；限制日：无（2026-27 新加入）；无需预约，实体卡暂不能直刷，首日前到售票处凭确认邮件 + 证件换票","base_excluded":false},
+{"name":"Sugarloaf","state":"ME","lat":45.0314,"lng":-70.3131,"pass":"MC","access":"limited","note":"2 天免费 + 额外天数 5 折；限制日：无；无需预约，激活实体卡后直接上缆车（无卡到 Base Lodge 售票窗口换票）；度假村住宿 85 折","base_excluded":false},
+{"name":"Sunday River","state":"ME","lat":44.4734,"lng":-70.8564,"pass":"MC","access":"limited","note":"2 天免费 + 额外天数 5 折；限制日：无；无需预约，激活实体卡后直接上缆车（无卡到 South Ridge Welcome Center 换票）；住宿 9 折","base_excluded":false},
+{"name":"Bromont","state":"QC","lat":45.3034,"lng":-72.6380,"pass":"MC","access":"limited","note":"2 天免费 + 额外天数 5 折；限制日：无；无需预约，实体卡不能直刷，须到售票处凭确认邮件 + 证件办理可充值卡（押金 5 加元）；有夜场","base_excluded":false},
+{"name":"Le Massif de Charlevoix","state":"QC","lat":47.2780,"lng":-70.6260,"pass":"MC","access":"limited","note":"2 天免费 + 额外天数 5 折；限制日：无；预约可选（提前 72 小时邮件 mountaincollective@lemassif.com），须到山顶售票处凭卡/确认邮件 + 证件领取可充值卡","base_excluded":false}
+]

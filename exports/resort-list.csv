@@ -1,0 +1,157 @@
+﻿id,Name,State,Region,Kind,Passes,Verified
+mohawk|CT,Mohawk Mountain,CT,us-northeast,alpine,Indy:limited,yes
+mountsouthington|CT,Mount Southington,CT,us-northeast,alpine,Snow:limited,yes
+powderridge|CT,Powder Ridge,CT,us-northeast,alpine,Indy:limited,yes
+berkshireeast|MA,Berkshire East Mountain Resort,MA,us-northeast,alpine,Indy:limited,yes
+bluehills|MA,Blue Hills Ski Area,MA,us-northeast,alpine,Snow:limited,yes
+bousquet|MA,Bousquet Mountain,MA,us-northeast,alpine,Indy:limited,yes
+catamount|MA,Catamount Mountain Resort,MA,us-northeast,alpine,Indy:limited,yes
+jiminypeak|MA,Jiminy Peak,MA,us-northeast,alpine,Ikon:bonus + Snow:bonus,yes
+butternut|MA,Ski Butternut,MA,us-northeast,alpine,Ikon:bonus + Snow:limited,yes
+bethelvillagetrails|ME,Bethel Village Trails,ME,us-northeast,xc,Indy:bonus,
+bigmoose|ME,Big Moose,ME,us-northeast,alpine,Indy:limited,yes
+bigrock|ME,Big Rock Mountain,ME,us-northeast,alpine,Indy:limited,yes
+blackofmaine|ME,Black Mountain of Maine,ME,us-northeast,alpine,Indy:limited,yes
+camdensnow|ME,Camden Snow Bowl,ME,us-northeast,alpine,Indy:limited,yes
+cartersxc|ME,Carters XC Ski Center,ME,us-northeast,xc,Indy:bonus,
+fortkentoutdoor|ME,Fort Kent Outdoor Center,ME,us-northeast,xc,Indy:bonus,
+lostvalley|ME,Lost Valley,ME,us-northeast,alpine,Indy:limited,yes
+abram|ME,Mt. Abram,ME,us-northeast,alpine,Indy:limited,yes
+northernmainecommunitytrails|ME,Northern Maine Community Trails,ME,us-northeast,xc,Indy:bonus,
+pleasant|ME,Pleasant Mountain,ME,us-northeast,alpine,Snow:limited + Boyne:unlimited,yes
+quarryroadtrails|ME,Quarry Road Trails,ME,us-northeast,xc,Indy:bonus,
+rangeleylakestrail|ME,Rangeley Lakes Trail Center,ME,us-northeast,xc,Indy:bonus,
+saddleback|ME,Saddleback Mountain,ME,us-northeast,alpine,Indy:limited,yes
+sugarloaf|ME,Sugarloaf,ME,us-northeast,alpine,Ikon:limited + MC:limited + Boyne:unlimited,yes
+sundayriver|ME,Sunday River,ME,us-northeast,alpine,Ikon:limited + MC:limited + Boyne:unlimited,yes
+attitash|NH,Attitash,NH,us-northeast,alpine,Epic:unlimited,yes
+black|NH,Black Mountain Ski Area,NH,us-northeast,alpine,Indy:limited,yes
+brettonwoods|NH,Bretton Woods,NH,us-northeast,alpine,WMSP:unlimited,yes
+cannon|NH,Cannon Mountain,NH,us-northeast,alpine,Indy:limited + WMSP:unlimited,yes
+cranmore|NH,Cranmore Mountain Resort,NH,us-northeast,alpine,Ikon:bonus + Snow:bonus + WMSP:unlimited,yes
+crotched|NH,Crotched Mountain,NH,us-northeast,alpine,Epic:unlimited,yes
+dartmouthskiway|NH,Dartmouth Skiway,NH,us-northeast,alpine,Indy:limited,yes
+eastmancrosscountry|NH,Eastman Cross Country,NH,us-northeast,xc,Indy:bonus,
+franconiavillagexc|NH,Franconia Village XC Ski Area,NH,us-northeast,xc,Indy:bonus,
+greatglentrailsoutdoor|NH,Great Glen Trails Outdoor Center,NH,us-northeast,xc,Indy:bonus,
+jacksonxc|NH,Jackson XC,NH,us-northeast,xc,Indy:bonus,
+kingpine|NH,King Pine,NH,us-northeast,alpine,Indy:limited,yes
+loon|NH,Loon Mountain,NH,us-northeast,alpine,Ikon:limited + Boyne:unlimited,yes
+mcintyre|NH,McIntyre Ski Area,NH,us-northeast,alpine,Indy:limited,yes
+mountsunapee|NH,Mount Sunapee,NH,us-northeast,alpine,Epic:unlimited,yes
+patspeak|NH,Pats Peak,NH,us-northeast,alpine,Indy:limited,yes
+ragged|NH,Ragged Mountain,NH,us-northeast,alpine,Indy:limited,yes
+tenney|NH,Tenney Mountain,NH,us-northeast,alpine,Indy:limited,yes
+veteransmemorialrecreation|NH,Veterans Memorial Recreation Area,NH,us-northeast,alpine,Indy:limited,yes
+watervillevalley|NH,Waterville Valley Resort,NH,us-northeast,alpine,Indy:limited + WMSP:unlimited,yes
+whaleback|NH,Whaleback Mountain,NH,us-northeast,alpine,Indy:limited,yes
+wildcat|NH,Wildcat Mountain,NH,us-northeast,alpine,Epic:unlimited,yes
+belleayre|NY,Belleayre Mountain,NY,us-northeast,alpine,Snow:limited + SKI3:unlimited,yes
+buffalo|NY,Buffalo Ski Club,NY,us-northeast,alpine,Indy:limited,yes
+cazenovia|NY,Cazenovia Ski Club,NY,us-northeast,alpine,Indy:limited,yes
+dryhill|NY,Dry Hill Ski Area,NY,us-northeast,alpine,Indy:limited,yes
+garnethillxc|NY,Garnet Hill XC,NY,us-northeast,xc,Indy:bonus,
+gore|NY,Gore Mountain,NY,us-northeast,alpine,Snow:limited + SKI3:unlimited,yes
+greekpeak|NY,Greek Peak Mountain Resort,NY,us-northeast,alpine,Indy:limited,yes
+holimont|NY,HoliMont,NY,us-northeast,alpine,Snow:limited,yes
+holiday|NY,Holiday Mountain,NY,us-northeast,alpine,Snow:bonus,yes
+hunthollow|NY,Hunt Hollow Ski Club,NY,us-northeast,alpine,Indy:limited,yes
+hunter|NY,Hunter Mountain,NY,us-northeast,alpine,Epic:unlimited,yes
+kissingbridge|NY,Kissing Bridge,NY,us-northeast,alpine,Snow:bonus,yes
+mapleridge|NY,Maple Ski Ridge,NY,us-northeast,alpine,Indy:limited,yes
+vanhoevenberg|NY,Mt Van Hoevenberg,NY,us-northeast,xc,SKI3:bonus,
+pisgah|NY,Mt. Pisgah,NY,us-northeast,alpine,Indy:limited,yes
+oak|NY,Oak Mountain,NY,us-northeast,alpine,Snow:limited,yes
+osceolatughillxc|NY,Osceola Tug Hill XC Ski Center,NY,us-northeast,xc,Indy:bonus,
+peeknpeak|NY,Peek 'n Peak,NY,us-northeast,alpine,Indy:limited,yes
+plattekill|NY,Plattekill Mountain,NY,us-northeast,alpine,Snow:bonus,yes
+scottscobblenordic|NY,Scotts Cobble Nordic Center,NY,us-northeast,xc,Indy:bonus,
+skaneateles|NY,Skaneateles Ski Club,NY,us-northeast,alpine,Indy:limited,yes
+snowridge|NY,Snow Ridge,NY,us-northeast,alpine,Indy:limited,yes
+swain|NY,Swain Resort,NY,us-northeast,alpine,Indy:limited,yes
+titus|NY,Titus Mountain,NY,us-northeast,alpine,Indy:limited,yes
+west|NY,West Mountain,NY,us-northeast,alpine,Indy:limited,yes
+whiteface|NY,Whiteface Mountain,NY,us-northeast,alpine,Snow:limited + MC:limited + SKI3:unlimited,yes
+boltonvalley|VT,Bolton Valley Resort,VT,us-northeast,alpine,Indy:limited,yes
+burke|VT,Burke Mountain,VT,us-northeast,alpine,Indy:limited,yes
+catamountoutdoorfamily|VT,Catamount Outdoor Family Center,VT,us-northeast,xc,Indy:bonus,
+jaypeak|VT,Jay Peak Resort,VT,us-northeast,alpine,Indy:limited,yes
+killingtonpico|VT,Killington-Pico,VT,us-northeast,alpine,Ikon:limited,yes
+magic|VT,Magic Mountain,VT,us-northeast,alpine,Indy:limited,yes
+middleburysnowbowl|VT,Middlebury Snowbowl,VT,us-northeast,alpine,Indy:limited,yes
+mountsnow|VT,Mount Snow,VT,us-northeast,alpine,Epic:unlimited,yes
+okemo|VT,Okemo,VT,us-northeast,alpine,Epic:unlimited,yes
+rikertnordic|VT,Rikert Nordic Center,VT,us-northeast,xc,Indy:bonus,
+saskadenasix|VT,Saskadena Six Ski Area,VT,us-northeast,alpine,Indy:limited,yes
+sleepyhollow|VT,Sleepy Hollow,VT,us-northeast,xc,Indy:bonus,
+smugglersnotch|VT,Smugglers' Notch Resort,VT,us-northeast,alpine,Indy:limited,yes
+stowe|VT,Stowe Mountain Resort,VT,us-northeast,alpine,Epic:unlimited,yes
+stratton|VT,Stratton,VT,us-northeast,alpine,Ikon:unlimited,yes
+sugarbush|VT,Sugarbush Resort,VT,us-northeast,alpine,Ikon:unlimited,yes
+trappfamilylodge|VT,Trapp Family Lodge,VT,us-northeast,xc,Indy:bonus,
+woodstocknordic|VT,Woodstock Nordic Center,VT,us-northeast,xc,Indy:bonus,
+wisp|MD,Wisp,MD,us-midatlantic,alpine,Indy:limited,yes
+bigsnowamericandream|NJ,Big SNOW American Dream,NJ,us-midatlantic,alpine,Snow:limited,yes
+highpointxc|NJ,High Point XC Ski Center,NJ,us-midatlantic,xc,Indy:bonus,
+creek|NJ,Mountain Creek,NJ,us-midatlantic,alpine,Snow:limited,yes
+winter4kids|NJ,Winter4Kids,NJ,us-midatlantic,alpine,Indy:limited,yes
+bearcreek|PA,Bear Creek,PA,us-midatlantic,alpine,Indy:limited,yes
+bigboulder|PA,Big Boulder,PA,us-midatlantic,alpine,Epic:unlimited,yes
+blueknoballseason|PA,Blue Knob All Season Resort,PA,us-midatlantic,alpine,Indy:limited,yes
+blue|PA,Blue Mountain Resort,PA,us-midatlantic,alpine,Ikon:limited,yes
+camelback|PA,Camelback Resort,PA,us-midatlantic,alpine,Ikon:limited,yes
+hiddenvalley|PA,Hidden Valley,PA,us-midatlantic,alpine,Epic:unlimited,yes
+jackfrost|PA,Jack Frost,PA,us-midatlantic,alpine,Epic:unlimited,yes
+laurel|PA,Laurel Mountain,PA,us-midatlantic,alpine,Epic:unlimited,yes
+liberty|PA,Liberty Mountain,PA,us-midatlantic,alpine,Epic:unlimited,yes
+montage|PA,Montage Mountain,PA,us-midatlantic,alpine,Indy:limited,yes
+roundtop|PA,Roundtop Mountain Resort,PA,us-midatlantic,alpine,Epic:unlimited,yes
+sevensprings|PA,Seven Springs,PA,us-midatlantic,alpine,Epic:unlimited,yes
+shawnee|PA,Shawnee Mountain Ski Area,PA,us-midatlantic,alpine,Indy:limited,yes
+bigbear|PA,Ski Big Bear (Masthope),PA,us-midatlantic,alpine,Indy:limited,yes
+sawmill|PA,Ski Sawmill,PA,us-midatlantic,alpine,Indy:limited,yes
+springadventures|PA,Spring Mountain Adventures,PA,us-midatlantic,alpine,Indy:limited,yes
+tussey|PA,Tussey Mountain,PA,us-midatlantic,alpine,Indy:limited,yes
+whitetail|PA,Whitetail,PA,us-midatlantic,alpine,Epic:unlimited,yes
+bryce|VA,Bryce Resort,VA,us-midatlantic,alpine,Indy:limited,yes
+massanutten|VA,Massanutten Resort,VA,us-midatlantic,alpine,Indy:limited,yes
+wintergreen|VA,Wintergreen,VA,us-midatlantic,alpine,Indy:limited,yes
+canaanvalley|WV,Canaan Valley,WV,us-midatlantic,alpine,Indy:limited,yes
+snowshoe|WV,Snowshoe Mountain,WV,us-midatlantic,alpine,Ikon:unlimited,yes
+whitegrasstouring|WV,White Grass Ski Touring,WV,us-midatlantic,xc,Indy:bonus,
+winterplace|WV,Winterplace Ski Resort,WV,us-midatlantic,alpine,Indy:limited,yes
+cataloochee|NC,Cataloochee Ski Area,NC,us-southeast,alpine,Indy:limited,yes
+hatleypointe|NC,Hatley Pointe,NC,us-southeast,alpine,Indy:limited,yes
+ober|TN,Ober Mountain,TN,us-southeast,alpine,Indy:limited,yes
+monarch|CO,Monarch Mountain,CO,us-rockies,alpine,Snow:limited,
+snowking|WY,Snow King Mountain,WY,us-rockies,alpine,Snow:limited,
+marble|NL,Marble Mountain,NL,ca-east,alpine,Indy:limited,
+smokey|NL,Smokey Mountain Ski Club,NL,ca-east,alpine,Indy:limited,
+martock|NS,Ski Martock,NS,ca-east,alpine,Snow:limited,
+blue|ON,Blue Mountain,ON,ca-east,alpine,Ikon:unlimited,
+calabogiepeaks|ON,Calabogie Peaks Resort,ON,ca-east,alpine,Indy:limited,
+hardwoodbike|ON,Hardwood Ski and Bike,ON,ca-east,xc,Indy:bonus,
+hockleyvalley|ON,Hockley Valley Resort,ON,ca-east,alpine,Indy:limited,
+lochlomond|ON,Loch Lomond,ON,ca-east,alpine,Indy:limited,
+mountbaldy|ON,Mount Baldy Ski Area,ON,ca-east,alpine,Indy:limited,
+bromont|QC,Bromont,QC,ca-east,alpine,Snow:bonus + MC:limited,
+campfortune|QC,Camp Fortune,QC,ca-east,alpine,Indy:limited,
+vorlage|QC,Centre Vorlage,QC,ca-east,alpine,Indy:limited,
+destinationowlshead|QC,Destination Owl's Head,QC,ca-east,alpine,Indy:limited,
+lemassifdecharlevoix|QC,Le Massif de Charlevoix,QC,ca-east,alpine,Ikon:limited + MC:limited,
+massifdusud|QC,Massif du Sud,QC,ca-east,alpine,Indy:limited,
+montrigaud|QC,Mont Rigaud,QC,ca-east,alpine,Indy:limited,
+montsutton|QC,Mont Sutton,QC,ca-east,alpine,Indy:limited,
+montedouard|QC,Mont-Edouard,QC,ca-east,alpine,Indy:limited,
+montkanasuta|QC,Mont-Kanasuta,QC,ca-east,alpine,Indy:limited,
+montsainteanne|QC,Mont-Sainte-Anne,QC,ca-east,alpine,Epic:limited,
+saintbruno|QC,Ski Saint-Bruno,QC,ca-east,alpine,Indy:limited,
+valleebleue|QC,Ski Vallee Bleue,QC,ca-east,alpine,Indy:limited,
+sommetedelweiss|QC,Sommet Edelweiss,QC,ca-east,alpine,Snow:bonus,
+sommetgabriel|QC,Sommet Gabriel,QC,ca-east,alpine,Snow:bonus,
+sommetmorinheights|QC,Sommet Morin Heights,QC,ca-east,alpine,Snow:bonus,
+sommetolympia|QC,Sommet Olympia,QC,ca-east,alpine,Snow:bonus,
+sommetsaintsauveur|QC,Sommet Saint-Sauveur,QC,ca-east,alpine,Snow:bonus,
+stoneham|QC,Stoneham,QC,ca-east,alpine,Epic:limited,
+tremblant|QC,Tremblant,QC,ca-east,alpine,Ikon:unlimited,
+valdirene|QC,Val d'Irene,QC,ca-east,alpine,Indy:limited,

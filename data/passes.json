@@ -1,0 +1,10 @@
+{
+  "Ikon":  {"name": "Ikon",                      "short": "Ikon",      "color": "#e0a100", "url": "https://www.ikonpass.com"},
+  "Epic":  {"name": "Epic",                      "short": "Epic",      "color": "#1f6feb", "url": "https://www.epicpass.com"},
+  "Indy":  {"name": "Indy",                      "short": "Indy",      "color": "#d6336c", "url": "https://www.indyskipass.com"},
+  "Snow":  {"name": "Snow Pass",                 "short": "Snow",      "color": "#0f9d76", "url": "https://www.mysnowpass.com"},
+  "MC":    {"name": "Mountain Collective",       "short": "MC",        "color": "#7048e8", "url": "https://mountaincollective.com"},
+  "SKI3":  {"name": "SKI3",                      "short": "SKI3",      "color": "#111111", "url": "https://www.whiteface.com"},
+  "Boyne": {"name": "Boyne New England",         "short": "Boyne",     "color": "#a0522d", "url": "https://www.boynerewards.com"},
+  "WMSP":  {"name": "White Mountain Super Pass", "short": "White Mtn", "color": "#15aabf", "url": "https://www.brettonwoods.com/experiences/alpine-ski/pass-benefits/"}
+}

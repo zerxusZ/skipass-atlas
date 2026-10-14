@@ -1,0 +1,336 @@
+[
+ {
+  "id": "stratton|VT",
+  "name": "Stratton",
+  "blackout": "Ikon：无（不限次）；Ikon Base：不限次但禁用 12/26/2026-12/30/2026、1/16-17/2027、2/13-14/2027。需预约：否",
+  "hours": "周一至周五 9:00-16:00；周末/节假日 8:30-16:00；1/16 前山顶缆车（Gondola、Ursa、Shooting Star、Snow Bowl）15:30 关闭（2025-26 时刻表）",
+  "days_open": "每天",
+  "night": {
+   "has": false,
+   "detail": "无夜滑"
+  },
+  "crowd": {
+   "peak": "高 — 距纽约约 4 小时、波士顿约 2.5 小时，南 VT 的 Ikon 主力雪场，周六与节假日缆车排队明显",
+   "offpeak": "低 — 平日人少，高速六人椅运力大，基本无需排队",
+   "tip": "周六 8:30 开缆前到；避开圣诞周、MLK 与 2 月 Presidents 周；平日最佳"
+  },
+  "size": {
+   "vertical_ft": 2003,
+   "acres": 670,
+   "trails": 99,
+   "lifts": 11,
+   "summit_ft": 3875,
+   "label": "大"
+  },
+  "confidence": "high",
+  "sources": [
+   "https://www.stratton.com/the-mountain/hours-of-operation",
+   "https://www.stratton.com/the-mountain/mountain-statistics",
+   "https://peterglenn.com/ikon-base-pass-2026-27/"
+  ]
+ },
+ {
+  "id": "sugarbush|VT",
+  "name": "Sugarbush Resort",
+  "blackout": "Ikon：无（不限次）；Ikon Base：不限次但禁用 12/26/2026-12/30/2026、1/16-17/2027、2/13-14/2027。需预约：否",
+  "hours": "Lincoln Peak：周一至周五 9:00-16:00，周末/节假日 8:00-16:00；Mt. Ellen 的 Green Mountain Express 每日 8:00 开；连接两山的 Slide Brook Express 仅部分日子 10:00-15:00（最近公布时刻，约 2025-26）",
+  "days_open": "每天（Mt. Ellen 早季/晚季可能仅周末开放）",
+  "night": {
+   "has": false,
+   "detail": "无夜滑"
+  },
+  "crowd": {
+   "peak": "中 — 位于 VT 中部 Mad River Valley，距波士顿约 3 小时、纽约约 5 小时，周末与假期 Lincoln Peak 主缆车较挤，Mt. Ellen 相对空",
+   "offpeak": "低 — 平日人很少，尤其 Mt. Ellen",
+   "tip": "周末优先去 Mt. Ellen，或 8 点开缆前到 Lincoln Peak；避开 2 月学校假期"
+  },
+  "size": {
+   "vertical_ft": 2600,
+   "acres": 484,
+   "trails": 111,
+   "lifts": 16,
+   "summit_ft": 4083,
+   "label": "大"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://blog.sugarbush.com/guides/making-the-most-of-the-mountain-a-visitors-busy-season-guide/",
+   "https://en.wikipedia.org/wiki/Sugarbush_Resort",
+   "https://peterglenn.com/ikon-base-pass-2026-27/"
+  ]
+ },
+ {
+  "id": "attitash|NH",
+  "name": "Attitash",
+  "blackout": "Epic：无；Epic Local：Attitash 不限次，官方受限日期 11/27-28/2026、12/26-31/2026、1/16/2027、2/13-14/2027 仅列出针对 Vail/Stowe 等受限雪场，Attitash 不在受限名单（建议出行前确认）；Northeast Value/Midweek 也未将 Attitash 列为受限。需预约：否",
+  "hours": "早季（1/17 前）：周一至周五 9:00-15:30，周末/节假日 8:30-15:30；旺季（1/17 起）：周一至周五 9:00-16:00，周末/节假日 8:30-16:00（2025-26 时刻表）",
+  "days_open": "每天",
+  "night": {
+   "has": false,
+   "detail": "无夜滑"
+  },
+  "crowd": {
+   "peak": "中 — Mount Washington Valley 的 Epic 雪场，距波士顿约 2.5 小时，假期与周六较忙，但 Bear Peak 可分流",
+   "offpeak": "低 — 平日人少",
+   "tip": "周六上午 9 点前到；人多时去 Bear Peak 一侧；避开 2 月 Presidents 周"
+  },
+  "size": {
+   "vertical_ft": 1750,
+   "acres": 311,
+   "trails": 68,
+   "lifts": 8,
+   "summit_ft": 2350,
+   "label": "中"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://www.attitash.com/explore-the-resort/about-the-resort/hours-of-operation.aspx",
+   "https://www.epicpass.com/info/peak-restricted-dates.aspx",
+   "https://en.wikipedia.org/wiki/Attitash_Mountain_Resort"
+  ]
+ },
+ {
+  "id": "black|NH",
+  "name": "Black Mountain Ski Area",
+  "blackout": "Indy（限次，每季 2 天）：Indy Base 与 Indy+ 均无禁用日期（2026-27 Indy 禁用日期表未列 Black Mountain）。需预约：否",
+  "hours": "周四至周一 9:00-16:00，周二、周三通常不开（官网冬季时刻，未注明年份，按 2025-26 参考）",
+  "days_open": "周四至周一（假期周可能每天）",
+  "night": {
+   "has": false,
+   "detail": "无夜滑"
+  },
+  "crowd": {
+   "peak": "低 — Jackson 的小型老牌雪场，客流小，仅假期周末偶有排队",
+   "offpeak": "低 — 平日几乎无人",
+   "tip": "注意周二、周三不开；2026 年 3 月起由 GM Erik Mogensen 收购改为私营（Indy 母公司 Entabeni 总部迁至 Jackson），2026-27 运营细节出行前确认"
+  },
+  "size": {
+   "vertical_ft": 1100,
+   "acres": 143,
+   "trails": 45,
+   "lifts": 5,
+   "summit_ft": 3303,
+   "label": "中"
+  },
+  "confidence": "low",
+  "sources": [
+   "https://www.blackmt.com/",
+   "https://northeastexplorer.com/black-mountain-ski-area-new-hampshire-0326/",
+   "https://en.wikipedia.org/wiki/Black_Mountain_Ski_Area",
+   "https://www.indyskipass.com/blackout-dates-reservations"
+  ]
+ },
+ {
+  "id": "cannon|NH",
+  "name": "Cannon Mountain",
+  "blackout": "Indy（限次，每季 2 天）：Indy Base 禁用 12/19/2026-1/3/2027、1/16-18/2027、2/13-15/2027，以及 1/9-3/7/2027 期间所有周六、周日；Indy+：无禁用日期。需预约：是（所有 Indy 持卡人须在 cannonmt.com 提前预约，未到场也计次）",
+  "hours": "周一至周五 9:00-16:00；周末/节假日 8:30-16:00（历年惯例；2025-26 雪季结束后官网时刻页已不显示，未逐条核实）",
+  "days_open": "每天（感恩节、圣诞节关闭）",
+  "night": {
+   "has": false,
+   "detail": "无夜滑"
+  },
+  "crowd": {
+   "peak": "中 — 州立雪场，紧邻 I-93 Franconia Notch，周末与假期 Tram 和 Peabody 排队明显",
+   "offpeak": "低 — 平日人少，风大天冷时更空",
+   "tip": "Indy Base 在 1-3 月周末全部禁用，基本只能平日来；务必提前预约"
+  },
+  "size": {
+   "vertical_ft": 2180,
+   "acres": 285,
+   "trails": 97,
+   "lifts": 10,
+   "summit_ft": 4080,
+   "label": "大"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://www.indyskipass.com/our-resorts/cannon-mountain",
+   "https://www.indyskipass.com/blackout-dates-reservations",
+   "https://cannonmt.com/hours",
+   "https://cannonmt.com/ski-ride/indypass"
+  ]
+ },
+ {
+  "id": "cranmore|NH",
+  "name": "Cranmore Mountain Resort",
+  "blackout": "Ikon（bonus，每季 2 天，仅完整 Ikon Pass）：禁用 12/26/2026-12/30/2026、1/16-17/2027、2/13-14/2027；Ikon Base / Session：不含 Cranmore。需预约：否（需到 Resort Services 兑换，不能直接刷卡上缆）。Snow：Cranmore 列在 2026-27 Snow Triple Play（3 张通用票）名单，不在 Snow Pass 14 家合作雪场内；禁用日期未公布",
+  "hours": "日间约 9:00-16:00，每天开放；2026-27 冬季时刻表尚未发布（官网目前仅显示秋季时刻）",
+  "days_open": "每天",
+  "night": {
+   "has": true,
+   "detail": "Twilight 夜滑：周三、周六及节假日 14:00-20:00（2025-26 票务页，仅部分初级道开放）"
+  },
+  "crowd": {
+   "peak": "中 — North Conway 镇边家庭雪场，假期周和周六本地家庭多，缆车运力一般",
+   "offpeak": "低 — 平日人少",
+   "tip": "假期周 9 点前到；周三/周六可利用 Twilight 场"
+  },
+  "size": {
+   "vertical_ft": 1200,
+   "acres": 170,
+   "trails": 56,
+   "lifts": 7,
+   "summit_ft": 2000,
+   "label": "中"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://cranmore.com/ikon",
+   "https://cranmore.com/tickets",
+   "https://slushthemagazine.com/blogs/features/new-snow-pass-and-snow-triple-play-announce-winter-2026-27-partner-lineups-giving-northeastern-riders-a-combined-25-mountains-to-explore",
+   "https://en.wikipedia.org/wiki/Cranmore_Mountain_Resort"
+  ]
+ },
+ {
+  "id": "crotched|NH",
+  "name": "Crotched Mountain",
+  "blackout": "Epic：无；Epic Local：Crotched 不限次，官方受限日期 11/27-28/2026、12/26-31/2026、1/16/2027、2/13-14/2027 仅列出针对 Vail/Stowe 等受限雪场，Crotched 不在受限名单（建议出行前确认）。需预约：否",
+  "hours": "周日、周一 9:00-16:00；周二至周六 9:00-21:00；12/24-25 及 3 月中旬后每天 9:00-16:00（2025-26 时刻表）",
+  "days_open": "每天",
+  "night": {
+   "has": true,
+   "detail": "周二至周六 至 21:00；另有数晚 Midnight Madness 开到 24:00（具体日期每季公布）"
+  },
+  "crowd": {
+   "peak": "高 — 距波士顿约 1.5 小时，离波士顿最近的 Epic 雪场，周六、假期和夜场人多，雪场小缆车少",
+   "offpeak": "中 — 平日白天较空，但平日夜场有学生和本地团体",
+   "tip": "周六 9 点开缆前到或改平日白天；Midnight Madness 夜很挤"
+  },
+  "size": {
+   "vertical_ft": 1000,
+   "acres": 100,
+   "trails": 25,
+   "lifts": 5,
+   "summit_ft": 2066,
+   "label": "中"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://www.crotchedmtn.com/explore-the-resort/about-the-resort/hours-of-operation.aspx",
+   "https://www.epicpass.com/info/peak-restricted-dates.aspx",
+   "https://news.vailresorts.com/press-kit?item=29991"
+  ]
+ },
+ {
+  "id": "dartmouthskiway|NH",
+  "name": "Dartmouth Skiway",
+  "blackout": "Indy（限次，每季 2 天）：Indy Base 与 Indy+ 均无禁用日期（Indy 页面注明 No Blackout Dates，2026-27 禁用表亦未列）。需预约：否",
+  "hours": "每天 9:00-16:00，平日与周末相同（官网时刻，未注明年份）",
+  "days_open": "每天",
+  "night": {
+   "has": false,
+   "detail": "无夜滑"
+  },
+  "crowd": {
+   "peak": "低 — 达特茅斯学院自营的小雪场，位置偏，假期周末也少有排队",
+   "offpeak": "低 — 平日很空，主要是学生和本地人",
+   "tip": "周六稍多但仍轻松；可与附近 Whaleback 等 Indy 雪场串联"
+  },
+  "size": {
+   "vertical_ft": 986,
+   "acres": 100,
+   "trails": 28,
+   "lifts": 4,
+   "summit_ft": 1680,
+   "label": "中"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://www.indyskipass.com/our-resorts/dartmouth-skiway",
+   "https://sites.dartmouth.edu/skiway/?p=6678"
+  ]
+ },
+ {
+  "id": "kingpine|NH",
+  "name": "King Pine",
+  "blackout": "Indy（限次，每季 2 天）：Indy Base 禁用 1/16-18/2027（MLK）、2/13-15/2027（Presidents 周末）及 2/16-20/2027；Indy+：无禁用日期。需预约：否",
+  "hours": "旺季（12/26-3/1）：周末/节假日 9:00-18:00，平日 10:00-18:00（周二至 20:00）；晚季（3/2 起）：平日 10:00-16:00，周末 9:00-16:00（2025-26 时刻表）",
+  "days_open": "每天",
+  "night": {
+   "has": true,
+   "detail": "Twilight 每天 15:30-18:00；周二夜滑至 20:00（2025-26）"
+  },
+  "crowd": {
+   "peak": "低 — 小型家庭雪场，位置偏（Madison, NH），假期也不太挤",
+   "offpeak": "低 — 平日几乎无人",
+   "tip": "适合初学者/家庭；2 月假期周 Indy Base 不可用"
+  },
+  "size": {
+   "vertical_ft": 350,
+   "acres": 48,
+   "trails": 17,
+   "lifts": 6,
+   "summit_ft": 850,
+   "label": "小"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://www.kingpine.com/tickets-passes/ticket-rates/",
+   "https://www.indyskipass.com/our-resorts/king-pine",
+   "https://www.indyskipass.com/blackout-dates-reservations"
+  ]
+ },
+ {
+  "id": "loon|NH",
+  "name": "Loon Mountain",
+  "blackout": "Ikon（限次，7 天）：无禁用日期；Ikon Base：5 天，禁用 12/26/2026-12/30/2026、1/16-17/2027、2/13-14/2027。需预约：否（未见要求）",
+  "hours": "周一至周五 9:00-16:00；周末/节假日 8:00-16:00（2025-26 时刻表，节假日含 12/26-1/2、MLK 周末、2 月假期周）",
+  "days_open": "每天",
+  "night": {
+   "has": false,
+   "detail": "无夜滑"
+  },
+  "crowd": {
+   "peak": "高 — 紧邻 I-93，距波士顿约 2 小时，NH 最热门雪场之一，周六与假期缆车和停车场都很挤",
+   "offpeak": "中 — 平日较好，但仍有团体和本地客",
+   "tip": "周末 8:00 开缆前到；避开 2 月学校假期；人多时去 South Peak"
+  },
+  "size": {
+   "vertical_ft": 2190,
+   "acres": 403,
+   "trails": 73,
+   "lifts": 13,
+   "summit_ft": 3050,
+   "label": "大"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://www.loonmtn.com/hours",
+   "https://loonmtn.com/mountain-stats",
+   "https://peterglenn.com/ikon-base-pass-2026-27/",
+   "https://peterglenn.com/ikon-pass-2026-27/"
+  ]
+ },
+ {
+  "id": "mcintyre|NH",
+  "name": "McIntyre Ski Area",
+  "blackout": "Indy（限次，每季 2 天）：Indy Base 禁用 1/16-18/2027（MLK 周末，据 Indy 2026-27 禁用表；Indy 雪场页面仍写 No Blackout Dates，以禁用表为准）；Indy+：无禁用日期。需预约：否",
+  "hours": "周日至周二 营业至约 18:00；周三至周六 营业至约 21:00（开门时间依天气；历年时刻，2026-27 未公布）",
+  "days_open": "每天（雪季约 12 月下旬圣诞假期至 3 月中旬）",
+  "night": {
+   "has": true,
+   "detail": "周三至周六 至 21:00；周日至周二 至 18:00"
+  },
+  "crowd": {
+   "peak": "中 — 位于 Manchester 市区，学校团体和滑雪课程多，周末和假期初级道较挤",
+   "offpeak": "低 — 平日白天人少，傍晚课程时段稍多",
+   "tip": "适合下班夜滑或初学者；避开周末下午课程高峰"
+  },
+  "size": {
+   "vertical_ft": 200,
+   "acres": 26,
+   "trails": 11,
+   "lifts": 5,
+   "summit_ft": 510,
+   "label": "小"
+  },
+  "confidence": "medium",
+  "sources": [
+   "https://www.indyskipass.com/our-resorts/mcintyre-ski-area",
+   "https://www.indyskipass.com/blackout-dates-reservations",
+   "https://www.mcintyreskiarea.com/",
+   "https://en.wikipedia.org/wiki/McIntyre_Ski_Area"
+  ]
+ }
+]

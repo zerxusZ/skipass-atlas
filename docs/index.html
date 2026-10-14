@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SkiPass Atlas</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+  :root {
+    --bg: #f6f7f9; --panel: #ffffff; --text: #1b1f24; --muted: #65707c; --line: #e3e6ea;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f1216; --panel: #171b21; --text: #e6e9ed; --muted: #95a0ab; --line: #2a3038;
+    }
+  }
+  :root[data-theme="dark"] { --bg: #0f1216; --panel: #171b21; --text: #e6e9ed; --muted: #95a0ab; --line: #2a3038; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text);
+    font: 14px/1.45 system-ui, -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+  .app { display: flex; height: 100%; }
+  aside { width: 340px; flex: none; background: var(--panel); border-right: 1px solid var(--line);
+    display: flex; flex-direction: column; min-height: 0; }
+  header { padding: 16px 16px 8px; }
+  h1 { font-size: 18px; margin: 0 0 2px; }
+  .sub { color: var(--muted); font-size: 12px; }
+  .filters { padding: 8px 16px 12px; border-bottom: 1px solid var(--line); display: grid; gap: 10px; }
+  .row { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border: 1px solid var(--line);
+    border-radius: 999px; cursor: pointer; user-select: none; font-size: 13px; background: transparent; color: var(--text); }
+  .chip .dot { width: 10px; height: 10px; border-radius: 50%; box-shadow: 0 0 0 1px rgba(255,255,255,.6); }
+  .chip.off { opacity: .4; }
+  .label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; margin-bottom: 4px; }
+  select, input[type=search] { width: 100%; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px;
+    background: var(--bg); color: var(--text); font: inherit; }
+  .count { padding: 8px 16px; color: var(--muted); font-size: 12px; border-bottom: 1px solid var(--line); }
+  ul { list-style: none; margin: 0; padding: 0; overflow-y: auto; flex: 1; }
+  li { padding: 10px 16px; border-bottom: 1px solid var(--line); cursor: pointer; }
+  li:hover { background: var(--bg); }
+  .name { font-weight: 600; }
+  .state { color: var(--muted); font-weight: 400; margin-left: 4px; font-size: 12px; }
+  .meta { color: var(--muted); font-size: 12px; margin-top: 2px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+  .tag { font-size: 11px; padding: 1px 7px; border-radius: 999px; color: #fff; }
+  .pair { display: inline-flex; gap: 2px; margin-right: 6px; }
+  .tag.acc { background: transparent; color: var(--muted); border: 1px solid var(--line); }
+  .tag.acc.bonus { border-style: dashed; }
+  #map { flex: 1; min-width: 0; }
+  .pin { width: 18px; height: 18px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.45); }
+  .pin.bonus-only { border-style: dashed; opacity: .85; }
+  .leaflet-popup-content { font: 13px/1.45 system-ui, "PingFang SC", "Microsoft YaHei", sans-serif; min-width: 220px; }
+  .pp-name { font-weight: 700; font-size: 14px; margin-bottom: 4px; }
+  .pp-row { margin: 3px 0; }
+  .pp-row b { display: inline-block; min-width: 40px; }
+  .pp-sec { margin-top: 8px; padding-top: 6px; border-top: 1px solid #e3e6ea; }
+  .pp-k { color: #65707c; font-size: 11px; display: block; }
+  .pp-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; text-align: center; margin-top: 6px; }
+  .pp-stats div { background: #f2f4f7; border-radius: 6px; padding: 3px 0; }
+  .pp-stats b { display: block; font-size: 13px; }
+  .pp-stats span { font-size: 10px; color: #65707c; }
+  .lvl { display: inline-block; min-width: 18px; text-align: center; border-radius: 4px; color: #fff; font-size: 11px; padding: 0 3px; margin-right: 4px; }
+  .lvl-高 { background: #d64545; } .lvl-中 { background: #e08a00; } .lvl-低 { background: #2f9e44; }
+  .pp-site a { color: #1f6feb; font-weight: 600; }
+  .legend { background: var(--panel); color: var(--text); padding: 8px 10px; border-radius: 8px; font-size: 12px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.3); line-height: 1.7; }
+  @media (max-width: 760px) {
+    .app { flex-direction: column; }
+    aside { width: 100%; height: 45%; border-right: 0; border-bottom: 1px solid var(--line); overflow-y: auto; }
+    aside ul { flex: none; overflow: visible; }
+    .filters { gap: 6px; }
+    #map { height: 55%; }
+    .legend { font-size: 10px; padding: 4px 6px; line-height: 1.5; }
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <aside>
+    <header>
+      <h1>SkiPass Atlas</h1>
+      <div class="sub">北美滑雪通票地图 · 2026-27 雪季 · <span id="updated"></span></div>
+    </header>
+    <div class="filters">
+      <div>
+        <div class="label">Pass</div>
+        <div class="row" id="passFilters"></div>
+      </div>
+      <div>
+        <div class="label">权益类型</div>
+        <div class="row" id="accessFilters"></div>
+      </div>
+      <div>
+        <div class="label">地区 / 类型</div>
+        <div class="row" id="regionFilters"></div>
+        <div class="row" id="kindFilters" style="margin-top:6px"></div>
+      </div>
+      <div>
+        <div class="label">州 / 省</div>
+        <select id="stateSel"></select>
+      </div>
+      <div>
+        <div class="label">规模</div>
+        <div class="row" id="sizeFilters"></div>
+      </div>
+      <div>
+        <div class="label">夜场</div>
+        <div class="row" id="nightFilters"></div>
+      </div>
+      <input type="search" id="q" placeholder="搜索雪场名">
+    </div>
+    <div class="count" id="count"></div>
+    <ul id="list"></ul>
+  </aside>
+  <div id="map"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="data.js"></script>
+<script>
+const PASSES = META.passes;
+const PASS_HEX = Object.fromEntries(Object.entries(PASSES).map(([k, p]) => [k, p.color]));
+const PASS_NAME = Object.fromEntries(Object.entries(PASSES).map(([k, p]) => [k, p.name]));
+const PASS_SHORT = Object.fromEntries(Object.entries(PASSES).map(([k, p]) => [k, p.short]));
+const ACCESS = { unlimited: "无限", limited: "有限", bonus: "Bonus" };
+const REGIONS = META.regions;
+const KINDS = { alpine: "高山雪场", xc: "越野滑雪 XC" };
+const SIZES = { "超大": "超大型", "大": "大型", "中": "中型", "小": "小型", "迷你": "迷你", none: "不明" };
+const NIGHTS = { yes: "有夜场", no: "无夜场", none: "不明" };
+const TOP_N = 20;
+const state = {
+  pass: new Set(Object.keys(PASS_HEX)),
+  access: new Set(Object.keys(ACCESS)),
+  region: new Set(META.defaultRegions),
+  kind: new Set(["alpine"]),
+  size: new Set(Object.keys(SIZES)),
+  night: new Set(Object.keys(NIGHTS)),
+  st: "",
+  q: ""
+};
+document.getElementById("updated").textContent = "数据更新 " + META.updated;
+
+function chip(container, key, label, set, color) {
+  const el = document.createElement("label");
+  el.className = "chip" + (set.has(key) ? "" : " off");
+  el.innerHTML = (color ? `<span class="dot" style="background:${color}"></span>` : "") + label;
+  el.onclick = (e) => {
+    e.preventDefault();
+    set.has(key) ? set.delete(key) : set.add(key);
+    el.classList.toggle("off", !set.has(key));
+    if (set === state.region) fillStates();
+    render();
+  };
+  container.appendChild(el);
+}
+Object.keys(PASS_HEX).forEach(p => chip(passFilters, p, PASS_NAME[p], state.pass, PASS_HEX[p]));
+Object.entries(ACCESS).forEach(([k, v]) => chip(accessFilters, k, v, state.access));
+Object.entries(REGIONS).forEach(([k, v]) => chip(regionFilters, k, v, state.region));
+Object.entries(KINDS).forEach(([k, v]) => chip(kindFilters, k, v, state.kind));
+Object.entries(SIZES).forEach(([k, v]) => chip(sizeFilters, k, v, state.size));
+Object.entries(NIGHTS).forEach(([k, v]) => chip(nightFilters, k, v, state.night));
+
+function fillStates() {
+  const states = [...new Set(RESORTS.filter(r => state.region.has(r.region)).map(r => r.state))].sort();
+  if (!states.includes(state.st)) state.st = "";
+  stateSel.innerHTML = `<option value="">全部州 / 省</option>` +
+    states.map(s => `<option${s === state.st ? " selected" : ""}>${s}</option>`).join("");
+}
+fillStates();
+stateSel.onchange = () => { state.st = stateSel.value; render(); };
+q.oninput = () => { state.q = q.value.trim().toLowerCase(); render(); };
+
+const map = L.map("map", { zoomControl: true });
+const startPts = RESORTS.filter(r => state.region.has(r.region)).map(r => [r.lat, r.lng]);
+startPts.length ? map.fitBounds(startPts, { padding: [20, 20] }) : map.setView([45, -95], 4);
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom: 18, attribution: "&copy; OpenStreetMap contributors"
+}).addTo(map);
+const layer = L.layerGroup().addTo(map);
+
+const legend = L.control({ position: "bottomright" });
+legend.onAdd = () => {
+  const d = L.DomUtil.create("div", "legend");
+  d.innerHTML = Object.keys(PASS_HEX).map(p =>
+    `<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${PASS_HEX[p]};box-shadow:0 0 0 1px rgba(255,255,255,.6)"></span> ${PASS_NAME[p]}`).join("<br>")
+    + "<br><span style='opacity:.75'>多色 = 多个 pass 通用<br>虚线边 = 仅 bonus/折扣</span>";
+  return d;
+};
+legend.addTo(map);
+
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+const num = (v, unit = "") => v == null ? "—" : Number(v).toLocaleString() + unit;
+function level(text) {
+  const m = /^(高|中|低)/.exec(text || "");
+  return m ? `<span class="lvl lvl-${m[1]}">${m[1]}</span>${esc(text.replace(/^(高|中|低)\s*[—\-–:：]?\s*/, ""))}` : esc(text || "不明");
+}
+const sizeOf = (r) => r.info?.size?.label || "none";
+const nightOf = (r) => !r.info?.night ? "none" : r.info.night.has ? "yes" : "no";
+const visiblePasses = (r) => r.passes.filter(p => state.pass.has(p.pass) && state.access.has(p.access));
+
+function pinHtml(ps) {
+  const colors = [...new Set(ps.map(p => PASS_HEX[p.pass]))];
+  const bg = colors.length === 1 ? colors[0]
+    : `conic-gradient(${colors.map((c, i) => `${c} ${i * 360 / colors.length}deg ${(i + 1) * 360 / colors.length}deg`).join(",")})`;
+  const bonusOnly = ps.every(p => p.access === "bonus");
+  return `<div class="pin${bonusOnly ? " bonus-only" : ""}" style="background:${bg}"></div>`;
+}
+
+function popupHtml(r) {
+  const i = r.info;
+  const head = `<div class="pp-name">${esc(r.name)} <span class="state">${r.state}</span></div>` +
+    r.passes.map(p => `<div class="pp-row"><b style="color:${PASS_HEX[p.pass]}">${PASS_SHORT[p.pass]}</b> ${ACCESS[p.access]}` +
+      (p.note ? ` — ${esc(p.note)}` : "") + (p.base_excluded ? ` <i>(Base/Local 不含或受限)</i>` : "") + `</div>`).join("");
+  if (!i) return head;
+  const s = i.size || {};
+  const night = !i.night ? "不明" : i.night.has ? "有 — " + esc(i.night.detail)
+    : "无" + (i.night.detail && !/^无/.test(i.night.detail) ? "（" + esc(i.night.detail) + "）" : "");
+  return head + `
+    <div class="pp-stats">
+      <div><b>${num(s.vertical_ft)}</b><span>落差 ft</span></div>
+      <div><b>${num(s.acres)}</b><span>英亩</span></div>
+      <div><b>${num(s.trails)}</b><span>雪道</span></div>
+      <div><b>${num(s.lifts)}</b><span>缆车</span></div>
+    </div>
+    <div class="pp-row" style="margin-top:4px">规模 <b>${SIZES[sizeOf(r)]}</b>${s.score != null ? `（综合分 ${s.score}）` : ""}　山顶 ${num(s.summit_ft, " ft")}</div>
+    <div class="pp-sec"><span class="pp-k">开放时间</span>${esc(i.days_open || "")}${i.days_open ? "；" : ""}${esc(i.hours || "不明")}</div>
+    <div class="pp-sec"><span class="pp-k">夜场</span>${night}</div>
+    <div class="pp-sec"><span class="pp-k">限制日</span>${esc(i.blackout || "不明").replace(/\n/g, "<br>")}</div>
+    <div class="pp-sec"><span class="pp-k">繁忙程度</span>
+      <div class="pp-row">旺季 ${level(i.crowd?.peak)}</div>
+      <div class="pp-row">淡季 ${level(i.crowd?.offpeak)}</div>
+      ${i.crowd?.tip ? `<div class="pp-row">建议：${esc(i.crowd.tip)}</div>` : ""}
+    </div>` +
+    (i.website ? `<div class="pp-sec pp-site"><a href="${esc(i.website)}" target="_blank" rel="noopener">雪场官网</a></div>` : "");
+}
+
+const markers = new Map();
+function render() {
+  layer.clearLayers();
+  markers.clear();
+  const rows = RESORTS.filter(r => state.region.has(r.region) && state.kind.has(r.kind))
+    .filter(r => !state.st || r.state === state.st)
+    .filter(r => r.kind === "xc" || (state.size.has(sizeOf(r)) && state.night.has(nightOf(r))))
+    .map(r => ({ r, ps: visiblePasses(r) }))
+    .filter(x => x.ps.length);
+
+  rows.forEach(({ r, ps }) => {
+    const m = L.marker([r.lat, r.lng], {
+      icon: L.divIcon({ className: "", html: pinHtml(ps), iconSize: [18, 18], iconAnchor: [9, 9] }),
+      title: r.name
+    }).bindPopup(popupHtml(r), { maxWidth: 340, maxHeight: 440 });
+    m.addTo(layer);
+    markers.set(r.id, m);
+  });
+
+  // Sidebar: the most popular TOP_N of the current selection; a search lists every match instead.
+  const listed = state.q
+    ? rows.filter(x => x.r.name.toLowerCase().includes(state.q))
+    : rows.filter(x => x.r.rank).sort((a, b) => a.r.rank - b.r.rank).slice(0, TOP_N);
+  list.innerHTML = listed.map(({ r, ps }, n) => `<li data-id="${r.id}">
+    <span class="name">${state.q ? "" : (n + 1) + ". "}${esc(r.name)}</span><span class="state">${r.state}</span>
+    ${r.info ? `<div class="meta">${SIZES[sizeOf(r)]} · ${num(r.info.size?.trails)} 条雪道${nightOf(r) === "yes" ? " · 有夜场" : ""}</div>` : ""}
+    <div class="tags">${ps.map(p => `<span class="pair"><span class="tag" style="background:${PASS_HEX[p.pass]}">${PASS_SHORT[p.pass]}</span><span class="tag acc ${p.access}">${ACCESS[p.access]}</span></span>`).join("")}</div>
+  </li>`).join("");
+  count.textContent = state.q
+    ? `地图显示 ${rows.length} 个 · 搜索到 ${listed.length} 个`
+    : `地图显示 ${rows.length} 个 · 列表为最热门 Top ${listed.length}`;
+}
+list.onclick = (e) => {
+  const li = e.target.closest("li"); if (!li) return;
+  const m = markers.get(li.dataset.id); if (!m) return;
+  map.setView(m.getLatLng(), 10); m.openPopup();
+};
+render();
+</script>
+</body>
+</html>
